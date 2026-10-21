@@ -136,6 +136,15 @@ https://cdn.jsdelivr.net/gh/你的用户名/douban-relay@main/feed/rss.xml
 - 私有仓库使用 Pages 需要 GitHub Pro。
 - 结论：**个人免费使用请选公开仓库**；确实要私有，建议 30 分钟一次 + 关闭 Pages、改用 jsDelivr 无法读取私有仓库（此时需要 Cloudflare Worker 之类的动态端点，见方案报告）。
 
+## 常见报错
+
+**`Get Pages site failed. Please verify that the repository has Pages enabled and configured to build using GitHub Actions`**
+
+仓库还没启用 Pages。这一步发生在「提交归档」之后，所以**数据不会丢**，只是没有发布出去。两种修法：
+
+- 最稳：`Settings → Pages → Source` 选 **GitHub Actions**，再重跑。
+- 或直接重跑：workflow 里的 `configure-pages` 已带 `enablement: true`，会在运行时尝试自动创建 Pages 站点（需要 `pages: write`，已声明）。若自动创建被拒绝（403），回到上一条手动开。
+
 ## 停止与清理
 
 - 暂停：`Actions → douban-relay → ⋯ → Disable workflow`

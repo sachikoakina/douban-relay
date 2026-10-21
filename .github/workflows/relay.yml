@@ -73,6 +73,10 @@ jobs:
 
       - name: 配置 Pages
         uses: actions/configure-pages@v5
+        with:
+          # 仓库尚未启用 Pages 时尝试用 workflow token 自动创建站点，
+          # 免去手动去 Settings → Pages 点一次（需要 pages: write，已在上方声明）
+          enablement: true
 
       - name: 打包 feed 目录
         uses: actions/upload-pages-artifact@v3
