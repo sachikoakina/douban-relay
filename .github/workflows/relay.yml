@@ -1,0 +1,61 @@
+name: douban-relay
+
+on:
+  schedule:
+    # GitHub 定时最短 5 分钟；20 分钟一次足以覆盖豆瓣 10 条窗口
+    - cron: "*/20 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: douban-relay
+  cancel-in-progress: false
+
+jobs:
+  relay:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 安装 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 安装依赖
+        run: pip install feedparser==6.0.11
+
+      - name: 抓取、去重、归档并生成 RSS
+        run: python relay.py
+
+      - name: 有新增时提交（无新增不产生提交）
+        run: |
+          git config user.name "douban-relay-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/items.json feed/
+          if git diff --cached --quiet; then
+            echo "no changes"
+          else
+            git commit -m "relay: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git push
+          fi
+
+      - name: 配置 Pages
+        uses: actions/configure-pages@v5
+
+      - name: 打包 feed 目录
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: feed
+
+      - name: 发布到 GitHub Pages
+        id: deploy
+        uses: actions/deploy-pages@v4

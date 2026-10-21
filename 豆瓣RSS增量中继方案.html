@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>豆瓣 RSS 增量中继方案 · 决策与部署指南</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:"PingFang SC","Microsoft YaHei","Segoe UI",system-ui,sans-serif; background:#f4f6fa; color:#1f2937; line-height:1.7; }
+  .wrap { max-width:1000px; margin:0 auto; padding:32px 20px 56px; }
+  header.hero { background:linear-gradient(135deg,#0f3d3e 0%,#0f766e 55%,#14b8a6 100%); color:#fff; border-radius:14px; padding:32px 34px; margin-bottom:24px; }
+  header.hero .kicker { font-size:12px; letter-spacing:2px; opacity:.85; margin-bottom:8px; }
+  header.hero h1 { font-size:24px; font-weight:700; margin-bottom:9px; }
+  header.hero p { font-size:13.5px; opacity:.93; }
+  header.hero .meta { margin-top:14px; display:flex; flex-wrap:wrap; gap:8px; }
+  header.hero .chip { background:rgba(255,255,255,.15); border:1px solid rgba(255,255,255,.32); border-radius:999px; padding:3px 12px; font-size:12px; }
+  h2.sec { font-size:19px; font-weight:700; margin:32px 0 6px; padding-left:11px; border-left:4px solid #0f766e; }
+  p.sec-sub { font-size:13px; color:#6b7280; margin-bottom:14px; padding-left:15px; }
+  .verdict { background:#fff; border:1px solid #e5e7eb; border-radius:12px; padding:20px 24px; }
+  .verdict p { font-size:14px; margin-bottom:8px; }
+  .verdict b { color:#0f766e; }
+  .verdict ul { list-style:none; margin-top:4px; }
+  .verdict li { font-size:13.5px; padding:6px 0 6px 22px; position:relative; }
+  .verdict li::before { content:""; position:absolute; left:4px; top:13px; width:8px; height:8px; border-radius:50%; background:#14b8a6; }
+  table { width:100%; border-collapse:collapse; background:#fff; border-radius:10px; overflow:hidden; box-shadow:0 0 0 1px #e5e7eb; font-size:12.8px; }
+  th { background:#ecfdf5; color:#065f46; text-align:left; padding:10px 11px; font-weight:600; }
+  td { padding:9px 11px; border-top:1px solid #f0f2f6; vertical-align:top; }
+  tr:nth-child(even) td { background:#fafbfd; }
+  .pill { display:inline-block; border-radius:999px; padding:1px 9px; font-size:11.5px; font-weight:600; white-space:nowrap; }
+  .pill.green { background:#dcfce7; color:#15803d; }
+  .pill.red { background:#fee2e2; color:#b91c1c; }
+  .pill.amber { background:#fef3c7; color:#b45309; }
+  .pill.gray { background:#f3f4f6; color:#6b7280; }
+  .flow { background:#fff; border:1px solid #e5e7eb; border-radius:12px; padding:24px 18px; margin:6px 0 4px; }
+  .flow-row { display:flex; align-items:stretch; justify-content:center; gap:8px; flex-wrap:wrap; }
+  .node { flex:1 1 150px; min-width:140px; background:#f8fafc; border:1px solid #dbe3ea; border-radius:10px; padding:12px 12px; text-align:center; }
+  .node .t { font-size:12px; font-weight:700; color:#0f766e; margin-bottom:4px; }
+  .node .d { font-size:11.5px; color:#4b5563; line-height:1.55; }
+  .arrow { display:flex; align-items:center; color:#94a3b8; font-size:18px; }
+  .note { font-size:12.5px; color:#4b5563; background:#f8fafc; border:1px dashed #d7dfe7; border-radius:8px; padding:9px 13px; margin-top:10px; }
+  .warn { background:#fffbeb; border:1px solid #fde68a; border-radius:10px; padding:16px 22px; font-size:13.3px; }
+  .warn li { margin:6px 0 6px 18px; }
+  .steps { counter-reset:s; list-style:none; }
+  .steps li { background:#fff; border:1px solid #e5e7eb; border-radius:10px; padding:13px 18px 13px 52px; margin-bottom:9px; position:relative; font-size:13.5px; }
+  .steps li::before { counter-increment:s; content:counter(s); position:absolute; left:16px; top:13px; width:24px; height:24px; border-radius:50%; background:#0f766e; color:#fff; font-size:12px; font-weight:700; display:flex; align-items:center; justify-content:center; }
+  code { font-family:Consolas,Menlo,monospace; background:#eef2f7; border-radius:4px; padding:1px 6px; font-size:12.3px; color:#be185d; word-break:break-all; }
+  pre { background:#0f172a; color:#e2e8f0; border-radius:10px; padding:16px 18px; overflow-x:auto; font-size:12.2px; line-height:1.6; margin:10px 0; }
+  pre code { background:none; color:inherit; padding:0; }
+  .grid2 { display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+  .card { background:#fff; border:1px solid #e5e7eb; border-left:4px solid #0f766e; border-radius:10px; padding:15px 18px; }
+  .card h3 { font-size:14.5px; margin-bottom:6px; }
+  .card p, .card li { font-size:12.8px; color:#4b5563; }
+  .card ul { margin:6px 0 0 16px; }
+  footer { margin-top:36px; font-size:12px; color:#9ca3af; border-top:1px solid #e5e7eb; padding-top:14px; }
+  @media (max-width:760px){ .grid2 { grid-template-columns:1fr; } .arrow { transform:rotate(90deg); } }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="hero">
+  <div class="kicker">ARCHITECTURE DECISION · 免费 / 无需自部署</div>
+  <h1>豆瓣 RSS 增量中继：方案选择与部署指南</h1>
+  <p>目标：把豆瓣「只保留最近 10 条」的公开 RSS，变成一条只增不减、去重、条数由你定义的 RSS 链接；不补历史，从启用时刻起增量采集，归档稳定超过 15 条。</p>
+  <div class="meta">
+    <span class="chip">2026-10-18</span>
+    <span class="chip">零服务器成本</span>
+    <span class="chip">代码已本地实测</span>
+    <span class="chip">5 分钟可上线</span>
+  </div>
+</header>
+
+<h2 class="sec">结论先说</h2>
+<div class="verdict">
+  <p><b>没有现成的免费 SaaS 能同时做到「增量存储 + 去重 + 自定义条数输出」。</b>Inoreader 的对外 RSS 输出属于 Pro 付费功能；Feedly、NewsBlur 等阅读器要么不提供对外输出，要么只做共享而非自动归档；RSSHub 只负责「把网页变成 RSS」，不负责存下来超过 10 条。</p>
+  <p>真正满足「免费 + 不用自己架服务器」的，是<b>托管型 Serverless 中继</b>——平台代管运行，你只做一次性配置：</p>
+  <ul>
+    <li><b>首选 A：GitHub Actions + GitHub Pages。</b>公开仓库 Actions 不计分钟、Pages 免费；归档就是仓库里的一个 JSON，可版本追溯；本次已交付可运行代码并本地跑通。</li>
+    <li><b>备选 B：Val Town 单文件。</b>免费档 10 万次运行/天、cron 最短 15 分钟，天然支持 <code>?limit=20</code> 这种真·动态条数。</li>
+    <li><b>备选 C：Cloudflare Workers + KV。</b>免费 10 万请求/天，Cron Triggers + KV，同样支持动态 <code>?limit=</code>，但需要一次部署动作。</li>
+  </ul>
+  <p style="margin-top:10px;color:#6b7280;font-size:13px;">判断标准：你要的是「固定条数的链接，偶尔改配置」→ 选 A；「同一个链接上随时 ?limit=任意值」→ 选 B 或 C。</p>
+</div>
+
+<h2 class="sec">一、源头事实：豆瓣 RSS 的可用性与 10 条窗口</h2>
+<p class="sec-sub">这决定了「增量」是不是唯一可行路线。</p>
+<table>
+  <tr><th>项目</th><th>结论</th><th>依据</th></tr>
+  <tr><td>公开 RSS 是否还在</td><td><span class="pill green">在</span> 无需登录</td><td><code>https://www.douban.com/feed/people/{uid}/interests</code>，2026-10-18 实测 200 正常返回 10 条</td></tr>
+  <tr><td>单次返回条数</td><td><span class="pill amber">固定 10 条</span></td><td>实测 entries = 10，超出窗口的条目不会出现</td></tr>
+  <tr><td>类别参数</td><td><span class="pill red">已失效</span></td><td><code>?cat=movie|book|music</code> 与不带参数返回字节完全一致；书/影/音只能由条目链接域名自行判定</td></tr>
+  <tr><td>字段</td><td>标题（含想看/看过前缀）、链接、guid、发布时间、description（海报 table，有时含短评/评分文字）</td><td>RSS 2.0 + dc:creator；无评分数值、无标签、无广播</td></tr>
+  <tr><td>历史可回补吗</td><td><span class="pill red">不能</span></td><td>超出 10 条窗口的条目不会出现在 feed 中——这正是你接受「不回补」的原因</td></tr>
+</table>
+<div class="note">由此推出两个硬约束：① 中继必须在每次轮询时把窗口内条目「抄下来」；② 轮询间隔必须小于你「标记 10 条」所需的时间，否则会漏采（后面风险一节给出量化建议）。</div>
+
+<h2 class="sec">二、为什么没有「零代码」的免费服务</h2>
+<p class="sec-sub">把候选逐一对照你的五项要求，结论很直接。</p>
+<table>
+  <tr><th>候选</th><th>免费？</th><th>增量存储</th><th>去重</th><th>自定义条数输出</th><th>结论</th></tr>
+  <tr><td>Inoreader</td><td>免费档 150 feeds</td><td>有（阅读器内）</td><td>有</td><td>输出 RSS 属 <b>Pro 专享</b></td><td><span class="pill red">不满足</span></td></tr>
+  <tr><td>Feedly</td><td>免费档</td><td>有</td><td>有</td><td>无对外 RSS 输出</td><td><span class="pill red">不满足</span></td></tr>
+  <tr><td>NewsBlur</td><td>免费档 64 站</td><td>有</td><td>有</td><td>Blurblog 为共享式，非自动归档输出</td><td><span class="pill red">不满足</span></td></tr>
+  <tr><td>RSSHub 公共实例</td><td>是</td><td><span class="pill red">无</span></td><td>—</td><td>只做源转换</td><td><span class="pill red">不满足</span></td></tr>
+  <tr><td>Apify / Make / Zapier</td><td>额度很小</td><td>有（外部存储）</td><td>有</td><td>输出 RSS 需再接一层服务</td><td><span class="pill amber">半满足，链路长</span></td></tr>
+  <tr><td><b>Val Town</b></td><td>是（10 万次运行/天）</td><td>SQLite / Blob</td><td>代码内实现</td><td><code>?limit=</code> 动态</td><td><span class="pill green">满足（需贴代码）</span></td></tr>
+  <tr><td><b>Cloudflare Workers</b></td><td>是（10 万请求/天）</td><td>KV</td><td>代码内实现</td><td><code>?limit=</code> 动态</td><td><span class="pill green">满足（需一次部署）</span></td></tr>
+  <tr><td><b>GitHub Actions + Pages</b></td><td>是（公开仓库）</td><td>仓库 JSON</td><td>代码内实现</td><td>多档文件 / 改配置</td><td><span class="pill green">满足（已交付代码）</span></td></tr>
+</table>
+<div class="note">「无需自部署」在这里的含义：不需要 VPS、Docker、常驻进程、域名和证书。托管平台代跑代码，你只做一次性配置——这和「自己维护一台服务器」是两件事。</div>
+
+<h2 class="sec">三、首选方案：GitHub Actions + Pages</h2>
+<p class="sec-sub">抓取、去重、归档、生成、发布全部在一个工作流里完成，无外部依赖。</p>
+
+<div class="flow">
+  <div class="flow-row">
+    <div class="node"><div class="t">豆瓣公开 RSS</div><div class="d">interests（书影音同一流）<br>固定最近 10 条</div></div>
+    <div class="arrow">→</div>
+    <div class="node"><div class="t">Actions 定时任务</div><div class="d">cron 每 20 分钟<br>托管运行，无服务器</div></div>
+    <div class="arrow">→</div>
+    <div class="node"><div class="t">relay.py</div><div class="d">增量追加 · 去重<br>滚动淘汰 · 生成 XML</div></div>
+    <div class="arrow">→</div>
+    <div class="node"><div class="t">data/items.json</div><div class="d">你的仓库即存储<br>可版本追溯</div></div>
+    <div class="arrow">→</div>
+    <div class="node"><div class="t">Pages + 阅读器</div><div class="d">rss.xml / 15 / 30 / 50<br>公开订阅链接</div></div>
+  </div>
+</div>
+
+<h3 style="font-size:14.5px;margin:18px 0 8px;">约束逐项对照</h3>
+<table>
+  <tr><th>你的要求</th><th>实现</th></tr>
+  <tr><td>免费、无需自部署</td><td>公开仓库 Actions 不计分钟 + Pages 免费托管</td></tr>
+  <tr><td>定时拉取</td><td><code>cron: "*/20 * * * *"</code>（GitHub 定时最短 5 分钟）</td></tr>
+  <tr><td>增量追加到自有存储</td><td>追加写 <code>data/items.json</code>，随提交进入你的仓库</td></tr>
+  <tr><td>去重</td><td>去重键 = hash(条目 id/link + 发布时间)，重复抓取零新增</td></tr>
+  <tr><td>自定义输出条数</td><td><code>item_limit</code> 决定主链接；<code>presets</code> 生成 15/30/50 多档</td></tr>
+  <tr><td>不回补历史</td><td>首次运行只收录当时窗口内条目，无任何历史抓取逻辑</td></tr>
+  <tr><td>允许滚动更替</td><td><code>max_store</code>（默认 300）封顶，超出淘汰最旧</td></tr>
+  <tr><td>稳定超过 10 条、目标 15+</td><td>归档只增不减；每新增一次标记 +1 条，累计 5 次即超过 15</td></tr>
+</table>
+
+<h3 style="font-size:14.5px;margin:20px 0 8px;">本地实测结果（非纸面推演）</h3>
+<table>
+  <tr><th>测试场景</th><th>预期</th><th>实际</th><th>结果</th></tr>
+  <tr><td>首次抓取 10 条</td><td>归档 10</td><td>10</td><td><span class="pill green">通过</span></td></tr>
+  <tr><td>重复抓取同一批</td><td>新增 0</td><td>0</td><td><span class="pill green">通过</span></td></tr>
+  <tr><td>第二批含 7 条重叠 + 3 条新</td><td>新增 3，总计 13</td><td>3 / 13</td><td><span class="pill green">通过</span></td></tr>
+  <tr><td><code>max_store=8</code> 时再入 7 条</td><td>保留 8，淘汰最旧</td><td>8</td><td><span class="pill green">通过</span></td></tr>
+  <tr><td>输出限 5 / 15 条</td><td>分别 5 / 15 条</td><td>一致</td><td><span class="pill green">通过</span></td></tr>
+  <tr><td>XML 合法性 / guid 唯一性</td><td>可解析、无重复</td><td>一致</td><td><span class="pill green">通过</span></td></tr>
+  <tr><td>无新增时是否产生提交</td><td>不产生</td><td>跳过写入</td><td><span class="pill green">通过</span></td></tr>
+</table>
+
+<h3 style="font-size:14.5px;margin:22px 0 10px;">部署六步</h3>
+<ol class="steps">
+  <li>新建<b>公开</b>仓库，命名如 <code>douban-relay</code>。</li>
+  <li>上传三件套：<code>relay.py</code>、<code>config.json</code>、<code>.github/workflows/relay.yml</code>（目录结构保持不变）。</li>
+  <li>改 <code>config.json</code>：填豆瓣数字 ID、类别、<code>item_limit</code>、<code>presets</code>、<code>site_url</code>。</li>
+  <li><code>Settings → Pages → Source</code> 选择 <b>GitHub Actions</b>。</li>
+  <li><code>Actions → douban-relay → Run workflow</code> 手动跑一次（首次建立归档）。</li>
+  <li>订阅 <code>https://你的用户名.github.io/douban-relay/rss.xml</code>；要 15 条档就用 <code>rss-15.xml</code>。</li>
+</ol>
+<div class="note">国内访问 <code>github.io</code> 偏慢时，可用 jsDelivr 镜像：<code>https://cdn.jsdelivr.net/gh/用户名/douban-relay@main/feed/rss.xml</code>（缓存约 12 小时，可用 purge 接口手动刷新）。</div>
+
+<h2 class="sec">四、如果你要「同一个链接上任意 ?limit=」</h2>
+<p class="sec-sub">静态托管做不到按请求参数改变条数。这时换成可编程端点，仍是免费、无服务器。</p>
+<div class="grid2">
+  <div class="card">
+    <h3>B · Val Town（最快）</h3>
+    <ul>
+      <li>免费档：10 万次运行/天，cron 最短 15 分钟，1 分钟/次执行上限</li>
+      <li>存储：SQLite / Blob（10MB 级，存 300 条绰绰有余）</li>
+      <li>一个 HTTP val 负责输出，一个 cron val 负责采集</li>
+      <li>访问：<code>https://你的名字.web.val.run/rss?limit=20</code></li>
+    </ul>
+  </div>
+  <div class="card">
+    <h3>C · Cloudflare Workers + KV</h3>
+    <ul>
+      <li>免费档：10 万请求/天，含 Cron Triggers 与 KV</li>
+      <li>KV 存条目 JSON，Worker 按 <code>?limit=</code> 渲染 XML</li>
+      <li>需要一次 <code>wrangler deploy</code> 或在控制台粘贴代码</li>
+      <li>访问：<code>https://xxx.workers.dev/rss?limit=20</code></li>
+    </ul>
+  </div>
+</div>
+<p style="font-size:13px;color:#6b7280;margin-top:10px;">这两条路线的采集逻辑与 A 完全相同（同样的去重键、同样的滚动窗口），差异只在「谁来响应 HTTP 请求」。若你不需要动态参数，A 的维护成本最低——没有第三方平台依赖，数据就在自己仓库里。</p>
+
+<h2 class="sec">五、边界与风险</h2>
+<div class="warn">
+  <ul>
+    <li><b>首日只有 10 条。</b>这是「不回补」的必然结果；达到 15 条需要启用后再产生 5 次新标记，通常几天到两三周。</li>
+    <li><b>漏采窗口。</b>豆瓣只保留最近 10 条，若两次轮询之间你标记了超过 10 条，超出的会被挤掉且无法追回。当前 20 分钟一次已足够；高频用户可改 <code>*/10</code>。</li>
+    <li><b>公开仓库意味着数据公开。</b>豆瓣书影音兴趣本身是公开信息；若介意，私有仓库的 Actions 免费额度只有 2000 分钟/月（20 分钟一次约 2160 分钟，会超额），且私有仓库 Pages 需 Pro。</li>
+    <li><b>GitHub 定时可能延迟。</b>高峰期 cron 会有几分钟到几十分钟的排队，不影响归档正确性，只影响新鲜度。</li>
+    <li><b>豆瓣反爬。</b>脚本带浏览器 UA、失败重试 3 次；全部失败时本次不写文件，不会破坏已有归档。若持续 403，先把间隔放宽到 30–60 分钟。</li>
+    <li><b>同一作品状态变化。</b>「想看 → 看过」若发布时间更新，会作为新条目追加；若时间未变则按同一条去重。</li>
+  </ul>
+</div>
+
+<h2 class="sec">六、三种方式与「直接解析豆瓣 RSS」的对比</h2>
+<p class="sec-sub">前提：A/B/C 三种方式的数据源都是同一条豆瓣 RSS，中继不会、也不可能比源头多出字段。</p>
+<table>
+  <tr><th>维度</th><th>直接解析豆瓣 RSS</th><th>A · Actions + Pages</th><th>B · Val Town</th><th>C · Workers + KV</th></tr>
+  <tr>
+    <td>数据范围</td>
+    <td>永远只有最近 10 条，历史即丢</td>
+    <td><span class="pill green">累积</span> 10 → max_store（默认 300），可稳定 15+</td>
+    <td>同 A</td><td>同 A</td>
+  </tr>
+  <tr>
+    <td>字段完整度</td>
+    <td>基准（guid / title / link / pubDate / description / dc:creator）</td>
+    <td>已对齐：guid 原样透传，title/link/description 逐条一致；另加 category 与收藏状态</td>
+    <td>同 A（字段由你自己解析，默认可能丢 HTML）</td>
+    <td>同 B</td>
+  </tr>
+  <tr>
+    <td>更新时效</td>
+    <td><span class="pill green">实时</span> 请求即最新</td>
+    <td>轮询 20 分钟 + cron 排队 + Pages 缓存，端到端约 20–50 分钟</td>
+    <td>最低 15 分钟 cron，端到端约 15–25 分钟</td>
+    <td>cron 最低 1 分钟，端到端约 2–5 分钟</td>
+  </tr>
+  <tr>
+    <td>稳定性</td>
+    <td>只依赖豆瓣；403/超时即失败，无兜底</td>
+    <td>多一层 GitHub（数据中心 IP 可能被挡）；但豆瓣抖动时仍有归档副本可读</td>
+    <td>多一层 Deno Deploy，同类 IP 风险；免费额度有限</td>
+    <td>多一层 CF；国内目标站对 CF 出口 IP 更敏感，403 概率更高</td>
+  </tr>
+  <tr>
+    <td>实现成本</td>
+    <td><span class="pill green">最低</span> 20 行代码，零配置</td>
+    <td>一次配置约 10 分钟，之后免运维；静态托管，不支持 <code>?limit=</code></td>
+    <td>粘贴 60 行 TS，约 15 分钟，支持 <code>?limit=</code></td>
+    <td>60–80 行 + KV 命名空间 + wrangler，约 30–45 分钟</td>
+  </tr>
+  <tr>
+    <td>成本</td>
+    <td>0</td><td>0（公开仓库）</td><td>0（10 万次/天）</td><td>0（10 万请求/天）</td>
+  </tr>
+</table>
+<div class="note"><b>结论：</b>三者与直连 RSS 是「同一个内容池的两种读取姿势」，不是替代关系。要「更多条」只能中继；要「最新」只能直连。若下游只需要当前状态，中继纯属多一跳；若下游需要历史或需要一条不因豆瓣抖动而消失的稳定地址，直连做不到。中继做不到的事只有一件：补启用前的历史。</div>
+<div class="warn">
+  <ul>
+    <li><b>不能混用 guid 语义。</b>中继输出已把 <code>guid</code> 回填为豆瓣原始 interests id，可与直连结果去重合并；早期版本用的是哈希键，混用会产生重复条目。</li>
+    <li><b>时区表示不同。</b>上游是 GMT，中继输出 +0800；同一时刻，但用字符串比较会误判为不同（应按解析后的时间戳比较）。</li>
+    <li><b>建议分工。</b>其他项目：直连 RSS 取实时 + 读中继归档补 10 条之外的历史，两边按 guid 合并。</li>
+  </ul>
+</div>
+
+<footer>
+  <p>事实来源：豆瓣 RSS 地址格式与 10 条窗口来自 2026 年仍在运行的公开项目实践（youngsay.cn 豆瓣同步教程、nanvon/douban-backup）；Inoreader 输出 feed 属 Pro 来自其官方功能页；Val Town 限额来自官方 Limits 页（免费档 10 万次运行/天、cron 最短 15 分钟）；GitHub Actions 公开仓库免费与 5 分钟 cron 下限来自 GitHub 文档。代码测试于 2026-10-18 本地执行，测试覆盖增量、去重、滚动淘汰、条数限制与 XML 合法性。</p>
+</footer>
+
+</div>
+</body>
+</html>

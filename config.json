@@ -1,0 +1,10 @@
+{
+  "douban_uid": "你的豆瓣数字ID",
+  "categories": ["movie", "book"],
+  "feed_title": "我的豆瓣书影音（增量中继）",
+  "feed_description": "豆瓣公开 RSS 的增量归档：仅收录启用之后的条目，去重后保留最近若干条。",
+  "item_limit": 30,
+  "presets": [15, 30, 50],
+  "max_store": 300,
+  "site_url": "https://你的用户名.github.io/douban-relay"
+}
