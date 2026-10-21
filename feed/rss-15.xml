@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>我的豆瓣书影音（增量中继）</title>
+    <link>https://www.douban.com/people/201878529/</link>
+    <description>豆瓣公开 RSS 的增量归档：仅收录启用之后的条目，去重后保留最近若干条。</description>
+    <language>zh-CN</language>
+    <ttl>20</ttl>
+    <lastBuildDate>Thu, 22 Oct 2026 01:08:42 +0800</lastBuildDate>
+    <atom:link href="https://sachikoakina.github.io/douban-relay/rss-15.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>想看生化危机：爆发夜</title>
+      <link>https://movie.douban.com/subject/37068446/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4969486924</guid>
+      <pubDate>Mon, 19 Oct 2026 13:59:39 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">想看</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/37068446/" title="Resident Evil"&gt;
+    &lt;img alt="Resident Evil" src="https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2936442661.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>想看哥斯拉大战金刚3：超新星之战</title>
+      <link>https://movie.douban.com/subject/36889289/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4969485960</guid>
+      <pubDate>Mon, 19 Oct 2026 13:57:36 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">想看</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/36889289/" title="Godzilla x Kong: Supernova"&gt;
+    &lt;img alt="Godzilla x Kong: Supernova" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2921387013.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>想看流浪地球3(下)</title>
+      <link>https://movie.douban.com/subject/37106774/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4969484941</guid>
+      <pubDate>Mon, 19 Oct 2026 13:56:00 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">想看</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/37106774/" title="流浪地球3(下)"&gt;
+    &lt;img alt="流浪地球3(下)" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2915091857.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>想看葬送的芙莉莲 第三季 黄金乡篇</title>
+      <link>https://movie.douban.com/subject/38399537/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4966782084</guid>
+      <pubDate>Fri, 16 Oct 2026 00:15:43 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">想看</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/38399537/" title="葬送のフリーレン 第3期【黄金郷編】"&gt;
+    &lt;img alt="葬送のフリーレン 第3期【黄金郷編】" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2931217724.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>想看咒术回战 第四季</title>
+      <link>https://movie.douban.com/subject/38194362/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4966781668</guid>
+      <pubDate>Fri, 16 Oct 2026 00:15:10 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">想看</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/38194362/" title="呪術廻戦 死滅回游 後編"&gt;
+    &lt;img alt="呪術廻戦 死滅回游 後編" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2935349294.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>读过人鼠之间</title>
+      <link>https://book.douban.com/subject/37900523/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4962440766</guid>
+      <pubDate>Sat, 10 Oct 2026 11:23:28 +0800</pubDate>
+      <category>book</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">读过</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://book.douban.com/subject/37900523/" title="人鼠之间"&gt;
+    &lt;img alt="人鼠之间" src="https://img9.doubanio.com/view/subject/s/public/s35336505.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;推荐: 还行&lt;/p&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>看过怪兽8号 鸣海的日常</title>
+      <link>https://movie.douban.com/subject/38067591/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4818042573</guid>
+      <pubDate>Thu, 08 Oct 2026 08:00:23 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">看过</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/38067591/" title="怪獣8号 鳴海の平日"&gt;
+    &lt;img alt="怪獣8号 鳴海の平日" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2932848633.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;推荐: 还行&lt;/p&gt;
+        &lt;p&gt;备注: Day1家庭餐厅，他瘫着摸鱼，第一部队小队长坐隔壁，他竖耳朵偷听，听到全是在吐槽队长开会溜号、文书不签。内山昂辉配这种人最省劲，战场里嚣张，餐厅里装没事，被点名了嘴硬两句，又低头戳手机。
+Day2长谷川愁接任者，把保科、桐子叫来商量，绕一圈最棘手的还是鸣海那点破言行。保科第三部队副队长，毒舌不客气，鸣海不在场也被念一遍。
+Day3保科“西边最强”突袭有明基地。鸣海开会无故缺席，文书能拖就拖，空了就打游戏，被保科堵着互怼。一个自大一个毒舌，不打架，纯较劲。
+Day4同窗那集收一下，不回忆杀，不喊热血，就聊入队、开会、谁还躲报告。队长室堆模型、游戏机、外卖盒，他坐里头像普通社畜；换战装又一秒变最不讲理的那个人。
+有些强者不是没压力，是把压力全藏在“我再打一局”里。&lt;/p&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>看过大侦探波洛 第六季</title>
+      <link>https://movie.douban.com/subject/24522857/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4955761451</guid>
+      <pubDate>Thu, 01 Oct 2026 18:04:55 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">看过</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/24522857/" title="Agatha Christie's Poirot"&gt;
+    &lt;img alt="Agatha Christie's Poirot" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1958736063.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;推荐: 力荐&lt;/p&gt;
+        &lt;p&gt;备注: 第六季四集都改成长篇了。圣诞那集西米恩·李把儿女叫来挨个羞辱，晚上喉咙被割，私生子、旧南非的账全翻出来。波洛坐壁炉边听完，不多说，点破"最想杀他的，偏偏是最像他的人"。
+学舍那集最碎。丢罐头丢钢笔，后来死人。波洛对着作息表排，凶手藏在"顺手拿东西"里。
+高尔夫球场那集，雷诺半夜说有人害他，第二天埋沙坑里脸毁了。黑斯廷斯又恋爱，波洛和吉罗较劲。"死的人不一定是你想的那个人"，身份情妇叠一起，像家族群谣言传着传着出人命。
+无言的证人最静。艾米丽摔下楼梯，磷中毒，鲍勃不说话，比亲戚诚实。
+这季不逗贫了。黑斯廷斯还在，波洛越来越像在查"人为什么非要算计到死"。有些家，过节比凶案还累。&lt;/p&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>看过无言的证人</title>
+      <link>https://movie.douban.com/subject/1421739/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4955719948</guid>
+      <pubDate>Thu, 01 Oct 2026 17:04:14 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">看过</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/1421739/" title="Poirot: Dumb Witness"&gt;
+    &lt;img alt="Poirot: Dumb Witness" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2176432009.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;推荐: 力荐&lt;/p&gt;
+        &lt;p&gt;备注: 艾米丽小姐摔下楼梯，大家说是鲍勃的皮球滚到阶口。波洛到的时候人已经没了，新遗嘱把家产全给劳森，亲戚全傻眼了。
+这集不靠血腥。楼梯墙上的小铁环、护肝胶囊里的磷、鲍勃把球叼回窝的笨样，全是不响的东西。最会算计的是人，最老实的是狗。鲍勃不会说话，可它知道那晚谁在楼梯口。
+贝拉最闷。表面被丈夫压着、怯怯的，像那种"看着最可怜、其实最藏事"的亲戚。想从姑妈、丈夫、孩子之间抠出一条自己能活的路，抠着抠着就下毒了。波洛拆穿她时也没多得意，只说"你太会演软弱了"。
+丧事那天没人哭得大声，可每个人都在算自己还剩多少。有些亲人，活着时嫌你给得少，死了后嫌你给错了人。&lt;/p&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>看过轻音少女 剧场版</title>
+      <link>https://movie.douban.com/subject/5403927/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4955585320</guid>
+      <pubDate>Thu, 01 Oct 2026 13:27:31 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">看过</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/5403927/" title="映画 けいおん!"&gt;
+    &lt;img alt="映画 けいおん!" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2040458823.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;推荐: 力荐&lt;/p&gt;
+        &lt;p&gt;备注: 毕业前决定去伦敦，唯拎着吉他就兴奋，律闹着要自己定行程，澪列了一堆音乐地名，最后被紬和乌龟定下来。到了以后出租车送错酒店，寿司店又被误当乐队推上台，唯弹错、澪低头、律敲鼓像没事人，梓抱着琴袋站旁边，又窘又忍不住笑。伦敦眼、街区、茶馆这些景点不抢戏，她们迷路、看菜单、用蹩脚英语跟人比划，真是青春美好啊。
+可往下就开始绕写歌。唯给梓填词，写一句划一句，澪只低头试旋律，紬把茶泡到部室里，律嘴上催，手上帮着贴便签。回国后在教室唱《相遇天使》，佐和子站在走廊没拦，黑板上后来写满字，活动室茶具还摆着。可轻音本来就不是靠冲突吃饭。看到梓被一群人围着唱，不哭不抱，就红着眼说下次还要一起，才觉得异国再热闹，最后还是部室那点太阳最舍不得。&lt;/p&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
+  </channel>
+</rss>
