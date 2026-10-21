@@ -42,12 +42,74 @@ UA = (
 CFG = {}
 
 
+def _env(name):
+    """读取环境变量，空字符串视为未设置。"""
+    value = os.environ.get(name)
+    return value.strip() if value and value.strip() else ""
+
+
+def derive_site_url():
+    """用 Actions 注入的 GITHUB_REPOSITORY 推导 Pages 地址，免去手动填 site_url。"""
+    repo = _env("GITHUB_REPOSITORY")  # 形如 owner/name
+    if "/" not in repo:
+        return ""
+    owner, name = repo.split("/", 1)
+    if name.lower() == f"{owner.lower()}.github.io":
+        return f"https://{owner}.github.io"
+    return f"https://{owner}.github.io/{name}"
+
+
 def load_cfg():
+    """config.json 提供默认值，环境变量覆盖之（优先级：env > config.json > 内置默认）。
+
+    这样公开仓库里可以只放占位值的 config.json，真实配置由
+    GitHub Secrets / Variables 在运行时注入，不必写进仓库与 git 历史。
+    """
     global CFG
-    with open(CFG_PATH, encoding="utf-8") as fh:
-        CFG = json.load(fh)
-    if not str(CFG.get("douban_uid", "")).strip().isdigit():
-        sys.exit("config.json 里的 douban_uid 必须是豆瓣数字 ID")
+    try:
+        with open(CFG_PATH, encoding="utf-8") as fh:
+            CFG = json.load(fh)
+    except FileNotFoundError:
+        CFG = {}
+
+    # 单值项：环境变量名 -> (配置键, 类型)
+    overrides = (
+        ("DOUBAN_UID", "douban_uid", str),
+        ("FEED_TITLE", "feed_title", str),
+        ("FEED_DESCRIPTION", "feed_description", str),
+        ("ITEM_LIMIT", "item_limit", int),
+        ("MAX_STORE", "max_store", int),
+    )
+    for env_name, key, cast in overrides:
+        value = _env(env_name)
+        if value:
+            try:
+                CFG[key] = cast(value)
+            except ValueError:
+                sys.exit(f"环境变量 {env_name} 的值无法解析为{cast.__name__}：{value!r}")
+
+    presets = _env("PRESETS")
+    if presets:
+        try:
+            CFG["presets"] = [int(x) for x in presets.split(",") if x.strip()]
+        except ValueError:
+            sys.exit(f"环境变量 PRESETS 需为逗号分隔的整数，例如 15,30,50：{presets!r}")
+
+    # 站点地址：显式 SITE_URL 优先，其次 config.json，最后按仓库名自动推导
+    cfg_site = str(CFG.get("site_url") or "").strip()
+    if "你的" in cfg_site:  # 老版本模板里的占位值，视为未配置
+        cfg_site = ""
+    CFG["site_url"] = (_env("SITE_URL") or cfg_site or derive_site_url()).rstrip("/")
+
+    uid = str(CFG.get("douban_uid", "")).strip()
+    if not uid.isdigit():
+        sys.exit(
+            "douban_uid 未配置或非法：\n"
+            "  仓库部署：Settings → Secrets and variables → Actions，\n"
+            "           新建 Variables（推荐）或 Secrets，名称 DOUBAN_UID，值为豆瓣数字 ID；\n"
+            "  本地运行：修改 config.json 的 douban_uid，或设置环境变量 DOUBAN_UID。"
+        )
+    CFG["douban_uid"] = uid
 
 
 def load_state():
@@ -219,6 +281,12 @@ def write_feeds(state):
         payload = render_rss(state, limit, self_url)
         with open(os.path.join(FEED_DIR, name), "wb") as fh:
             fh.write(payload)
+
+    # 清理已不存在的档位文件：改 PRESETS 或 item_limit 后不残留旧文件被一起发布
+    for stale in sorted(os.listdir(FEED_DIR)):
+        if stale.endswith(".xml") and stale not in outputs:
+            os.remove(os.path.join(FEED_DIR, stale))
+            print(f"已清理旧档位：{stale}")
     return outputs
 
 

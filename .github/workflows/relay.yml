@@ -33,7 +33,30 @@ jobs:
       - name: 安装依赖
         run: pip install feedparser==6.0.11
 
+      - name: 校验 DOUBAN_UID 是否已配置
+        env:
+          DOUBAN_UID: ${{ vars.DOUBAN_UID || secrets.DOUBAN_UID }}
+        run: |
+          if [ -z "$DOUBAN_UID" ]; then
+            echo "::error::未配置 DOUBAN_UID。请到 Settings → Secrets and variables → Actions 新建 Variable 或 Secret，名称 DOUBAN_UID，值为豆瓣数字 ID。"
+            exit 1
+          fi
+          case "$DOUBAN_UID" in
+            ''|*[!0-9]*)
+              echo "::error::DOUBAN_UID 必须是纯数字（打开 https://www.douban.com/people/你的ID/ 地址栏里的那串数字）"
+              exit 1 ;;
+          esac
+          echo "DOUBAN_UID 已配置（${#DOUBAN_UID} 位数字）"
+
       - name: 抓取、去重、归档并生成 RSS
+        env:
+          # 优先取仓库 Variable，其次 Secret；两者都为空时由 relay.py 报错退出
+          DOUBAN_UID: ${{ vars.DOUBAN_UID || secrets.DOUBAN_UID }}
+          # 可选：自定义域名时填；留空则按 GITHUB_REPOSITORY 自动推导 Pages 地址
+          SITE_URL: ${{ vars.SITE_URL }}
+          ITEM_LIMIT: ${{ vars.ITEM_LIMIT }}
+          PRESETS: ${{ vars.PRESETS }}
+          MAX_STORE: ${{ vars.MAX_STORE }}
         run: python relay.py
 
       - name: 有新增时提交（无新增不产生提交）

@@ -27,7 +27,9 @@
    ├── config.json
    └── .github/workflows/relay.yml
    ```
-3. **改 `config.json`**：把 `douban_uid` 换成你的豆瓣数字 ID（打开 `https://www.douban.com/people/你的ID/`，地址里那串数字），顺手把 `site_url` 改成 `https://你的GitHub用户名.github.io/douban-relay`。
+3. **配 `DOUBAN_UID`**（二选一，推荐第一种）：
+   - 不改文件：`Settings → Secrets and variables → Actions → Variables` 新建 `DOUBAN_UID`，值为豆瓣数字 ID（打开 `https://www.douban.com/people/你的ID/`，地址栏那串数字）。`site_url` 无需填写，会自动推导。
+   - 或本地改 `config.json` 的 `douban_uid`（会写进 git 历史，公开仓库不建议）。
 4. **开启 Pages**：仓库 `Settings → Pages → Build and deployment → Source` 选 **GitHub Actions**。
 5. **手动跑一次**：`Actions → douban-relay → Run workflow`。首次运行会把当前 10 条写入归档并生成 RSS。
 6. **订阅**：等 Pages 部署完成（约 1 分钟），订阅
@@ -55,16 +57,47 @@ https://cdn.jsdelivr.net/gh/你的用户名/douban-relay@main/feed/rss.xml
 
 ## 参数说明
 
-| 字段 | 含义 | 默认 |
-|---|---|---|
-| `douban_uid` | 豆瓣数字 ID，只填数字 | 必填 |
-| `categories` | 已废弃：接口不再按类别过滤，书/影/音由条目链接域名自动判定 | `["movie","book"]` |
-| `feed_title` | 输出 RSS 的标题 | 见配置 |
-| `feed_description` | 输出 RSS 的描述 | 见配置 |
-| `item_limit` | `rss.xml` 的输出条数 | `30` |
-| `presets` | 额外生成的固定档位 | `[15,30,50]` |
-| `max_store` | 归档上限，超出淘汰最旧 | `300` |
-| `site_url` | Pages 站点地址，用于 `atom:link self` | 需改 |
+`config.json` 只提供默认值；同名**环境变量**（可来自 GitHub Secrets / Variables）优先级更高。详见下一节。
+
+| 配置键 | 环境变量 | 含义 | 默认 |
+|---|---|---|---|
+| `douban_uid` | `DOUBAN_UID` | 豆瓣数字 ID，只填数字 | 必填 |
+| `site_url` | `SITE_URL` | Pages 站点地址，用于 `atom:link self` | 留空则按 `owner/repo` 自动推导 |
+| `item_limit` | `ITEM_LIMIT` | `rss.xml` 的输出条数 | `30` |
+| `presets` | `PRESETS` | 额外生成的固定档位，逗号分隔 | `[15,30,50]` |
+| `max_store` | `MAX_STORE` | 归档上限，超出淘汰最旧 | `300` |
+| `feed_title` | `FEED_TITLE` | 输出 RSS 的标题 | 见配置 |
+| `feed_description` | `FEED_DESCRIPTION` | 输出 RSS 的描述 | 见配置 |
+
+## 配置注入：不改 config.json 也能部署（公开仓库推荐）
+
+优先级：**环境变量（Secrets / Variables） > `config.json` > 内置默认**。因此仓库里可以只留占位值，真实配置在运行时注入。
+
+### 三步启用
+
+1. `Settings → Secrets and variables → Actions → Variables`（或 `Secrets`）→ **New**，名称填 `DOUBAN_UID`，值为豆瓣数字 ID（打开 `https://www.douban.com/people/你的ID/`，地址栏那串数字）。
+2. `config.json` 保持原样（`"douban_uid": ""`），不需要改。
+3. `Actions → douban-relay → Run workflow`。未配置时会在「校验 DOUBAN_UID」步骤直接失败，并提示去哪配。
+
+`site_url` **不需要配**：workflow 会传入 `GITHUB_REPOSITORY`，脚本自动推导为 `https://<owner>.github.io/<repo>`；用自定义域名时才需要设 `SITE_URL`。
+
+### 该用 Variable 还是 Secret
+
+`douban_uid` 不是凭证，用 **Variable** 更合适（可读、可在页面核对、排错方便）。
+
+**关键事实：Secrets 挡不住 uid 暴露。** 生成的 `rss.xml` 里，`channel/link` 与每条 `guid` 都含 `www.douban.com/people/<uid>/interests/<id>`——订阅者一眼就能看到。Secrets 只能把它挡在**源码与 git 历史**之外，不能挡住输出。想让 uid 彻底不出现在 feed 里，得关掉 guid 透传（代价是下游无法与原 feed join），这属于产品取舍，不是安全措施。
+
+### 公开部署的安全注意事项
+
+| 事项 | 说明 |
+|---|---|
+| 真正的暴露面是归档 | `data/items.json`、`feed/*.xml` 会公开你的书影音标记历史，比 uid 敏感得多。介意就别公开仓库 |
+| Actions 日志公开可读 | 日志对所有匿名用户可见。本项目只打印 uid 位数，不做回显；调试时别 `echo` 变量 |
+| Variables 不是密文 | 公开仓库的 Variables 任何访问者都能在页面上看到；要"少一层可见"才用 Secret |
+| git 历史不可撤回 | 一旦提交过真实 uid，改文件也删不掉旧提交；必要时 `git filter-repo` 或重建仓库 |
+| fork PR 读不到 Secrets | 这是默认行为，本项目也没有使用 `pull_request_target`，无需额外加固 |
+| 改配置不用改代码 | 改 Variable/Secret 后下次运行即生效，不产生提交，也不会把值写进历史 |
+| 账号关联 | 公开仓库等于把 GitHub 账号与豆瓣账号公开绑定，这是社交层面的隐私，不是凭证泄露 |
 
 ## 时间线预期（重要）
 
@@ -112,7 +145,8 @@ https://cdn.jsdelivr.net/gh/你的用户名/douban-relay@main/feed/rss.xml
 
 ```bash
 pip install feedparser==6.0.11
-python relay.py          # 需先填好 config.json
+python relay.py                              # 需先设 DOUBAN_UID 或填好 config.json
+DOUBAN_UID=1234567 python relay.py           # 也可临时用环境变量
 ```
 
 首次运行会在本地生成 `data/items.json` 与 `feed/*.xml`，可直接用浏览器或阅读器验证。

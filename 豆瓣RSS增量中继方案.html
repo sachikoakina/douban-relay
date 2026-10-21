@@ -155,7 +155,7 @@
 <ol class="steps">
   <li>新建<b>公开</b>仓库，命名如 <code>douban-relay</code>。</li>
   <li>上传三件套：<code>relay.py</code>、<code>config.json</code>、<code>.github/workflows/relay.yml</code>（目录结构保持不变）。</li>
-  <li>改 <code>config.json</code>：填豆瓣数字 ID、类别、<code>item_limit</code>、<code>presets</code>、<code>site_url</code>。</li>
+  <li>配 <code>DOUBAN_UID</code>：<b>不用改文件</b>——在 <code>Settings → Secrets and variables → Actions</code> 新建 Variable（或 Secret）<code>DOUBAN_UID</code>；<code>site_url</code> 留空即可，按仓库名自动推导。</li>
   <li><code>Settings → Pages → Source</code> 选择 <b>GitHub Actions</b>。</li>
   <li><code>Actions → douban-relay → Run workflow</code> 手动跑一次（首次建立归档）。</li>
   <li>订阅 <code>https://你的用户名.github.io/douban-relay/rss.xml</code>；要 15 条档就用 <code>rss-15.xml</code>。</li>
@@ -191,6 +191,7 @@
   <ul>
     <li><b>首日只有 10 条。</b>这是「不回补」的必然结果；达到 15 条需要启用后再产生 5 次新标记，通常几天到两三周。</li>
     <li><b>漏采窗口。</b>豆瓣只保留最近 10 条，若两次轮询之间你标记了超过 10 条，超出的会被挤掉且无法追回。当前 20 分钟一次已足够；高频用户可改 <code>*/10</code>。</li>
+    <li><b>Secrets 挡得住源码，挡不住 uid。</b>生成的 <code>rss.xml</code> 里每条 <code>guid</code> 与 <code>channel/link</code> 都含 uid，订阅者可见；配置注入的真实价值是「不写进 git 历史、改配置不用提交」，不是保密。</li>
     <li><b>公开仓库意味着数据公开。</b>豆瓣书影音兴趣本身是公开信息；若介意，私有仓库的 Actions 免费额度只有 2000 分钟/月（20 分钟一次约 2160 分钟，会超额），且私有仓库 Pages 需 Pro。</li>
     <li><b>GitHub 定时可能延迟。</b>高峰期 cron 会有几分钟到几十分钟的排队，不影响归档正确性，只影响新鲜度。</li>
     <li><b>豆瓣反爬。</b>脚本带浏览器 UA、失败重试 3 次；全部失败时本次不写文件，不会破坏已有归档。若持续 403，先把间隔放宽到 30–60 分钟。</li>
