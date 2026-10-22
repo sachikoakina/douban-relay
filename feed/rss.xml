@@ -6,8 +6,23 @@
     <description>豆瓣公开 RSS 的增量归档：仅收录启用之后的条目，去重后保留最近若干条。</description>
     <language>zh-CN</language>
     <ttl>20</ttl>
-    <lastBuildDate>Thu, 22 Oct 2026 01:08:42 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 11:07:54 +0800</lastBuildDate>
     <atom:link href="https://sachikoakina.github.io/douban-relay/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>读过绍宋</title>
+      <link>https://book.douban.com/subject/36955267/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4971538706</guid>
+      <pubDate>Thu, 22 Oct 2026 10:30:16 +0800</pubDate>
+      <category>book</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">读过</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://book.douban.com/subject/36955267/" title="绍宋"&gt;
+    &lt;img alt="绍宋" src="https://img3.doubanio.com/view/subject/s/public/s34918397.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;推荐: 推荐&lt;/p&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
     <item>
       <title>想看生化危机：爆发夜</title>
       <link>https://movie.douban.com/subject/37068446/</link>

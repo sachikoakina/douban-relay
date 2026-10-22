@@ -1,6 +1,18 @@
 {
  "items": [
   {
+   "key": "2ca70a76ad0069dd03f4",
+   "guid": "https://www.douban.com/people/201878529/interests/4971538706",
+   "cat": "book",
+   "status": "读过",
+   "title": "读过绍宋",
+   "link": "https://book.douban.com/subject/36955267/",
+   "published": "2026-10-22T02:30:16Z",
+   "updated": "2026-10-22T02:30:16Z",
+   "summary": "<table><tr>\n    <td width=\"80px\"><a href=\"https://book.douban.com/subject/36955267/\" title=\"绍宋\">\n    <img alt=\"绍宋\" src=\"https://img3.doubanio.com/view/subject/s/public/s34918397.jpg\" /></a></td>\n    <td>\n        <p>推荐: 推荐</p>\n    </td></tr></table>",
+   "author": "琴弦月初"
+  },
+  {
    "key": "d18013ba2e9807055184",
    "guid": "https://www.douban.com/people/201878529/interests/4969486924",
    "cat": "movie",
