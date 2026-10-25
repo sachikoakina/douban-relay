@@ -1,6 +1,18 @@
 {
  "items": [
   {
+   "key": "a258a745054d81aef1f9",
+   "guid": "https://www.douban.com/people/201878529/interests/3758389104",
+   "cat": "movie",
+   "status": "看过",
+   "title": "看过芬奇",
+   "link": "https://movie.douban.com/subject/26897885/",
+   "published": "2026-10-25T07:39:07Z",
+   "updated": "2026-10-25T07:39:07Z",
+   "summary": "<table><tr>\n    <td width=\"80px\"><a href=\"https://movie.douban.com/subject/26897885/\" title=\"Finch\">\n    <img alt=\"Finch\" src=\"https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2721066869.jpg\" /></a></td>\n    <td>\n        <p>推荐: 推荐</p>\n    </td></tr></table>",
+   "author": "琴弦月初"
+  },
+  {
    "key": "2ca70a76ad0069dd03f4",
    "guid": "https://www.douban.com/people/201878529/interests/4971538706",
    "cat": "book",
