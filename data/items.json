@@ -1,6 +1,18 @@
 {
  "items": [
   {
+   "key": "1aa2d726a51a5f516a70",
+   "guid": "https://www.douban.com/people/201878529/interests/4974944930",
+   "cat": "movie",
+   "status": "看过",
+   "title": "看过狐妖小红娘 黄风岭篇",
+   "link": "https://movie.douban.com/subject/36994883/",
+   "published": "2026-10-26T04:21:35Z",
+   "updated": "2026-10-26T04:21:35Z",
+   "summary": "<table><tr>\n    <td width=\"80px\"><a href=\"https://movie.douban.com/subject/36994883/\" title=\"狐妖小红娘 黄风岭篇\">\n    <img alt=\"狐妖小红娘 黄风岭篇\" src=\"https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2934059551.jpg\" /></a></td>\n    <td>\n        <p>推荐: 还行</p>\n    </td></tr></table>",
+   "author": "琴弦月初"
+  },
+  {
    "key": "a258a745054d81aef1f9",
    "guid": "https://www.douban.com/people/201878529/interests/3758389104",
    "cat": "movie",

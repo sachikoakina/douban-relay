@@ -6,8 +6,23 @@
     <description>豆瓣公开 RSS 的增量归档：仅收录启用之后的条目，去重后保留最近若干条。</description>
     <language>zh-CN</language>
     <ttl>20</ttl>
-    <lastBuildDate>Sun, 25 Oct 2026 15:52:04 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 12:25:50 +0800</lastBuildDate>
     <atom:link href="https://sachikoakina.github.io/douban-relay/rss-50.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>看过狐妖小红娘 黄风岭篇</title>
+      <link>https://movie.douban.com/subject/36994883/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4974944930</guid>
+      <pubDate>Mon, 26 Oct 2026 12:21:35 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">看过</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/36994883/" title="狐妖小红娘 黄风岭篇"&gt;
+    &lt;img alt="狐妖小红娘 黄风岭篇" src="https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2934059551.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;推荐: 还行&lt;/p&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
     <item>
       <title>看过芬奇</title>
       <link>https://movie.douban.com/subject/26897885/</link>
