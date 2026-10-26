@@ -6,8 +6,51 @@
     <description>豆瓣公开 RSS 的增量归档：仅收录启用之后的条目，去重后保留最近若干条。</description>
     <language>zh-CN</language>
     <ttl>20</ttl>
-    <lastBuildDate>Mon, 26 Oct 2026 13:51:10 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 21:33:33 +0800</lastBuildDate>
     <atom:link href="https://sachikoakina.github.io/douban-relay/rss-50.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>想读日常 5</title>
+      <link>https://book.douban.com/subject/5254384/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4975197407</guid>
+      <pubDate>Mon, 26 Oct 2026 19:36:37 +0800</pubDate>
+      <category>book</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">想读</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://book.douban.com/subject/5254384/" title="日常 5"&gt;
+    &lt;img alt="日常 5" src="https://img3.doubanio.com/view/subject/s/public/s4461549.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>想读九井谅子涂鸦集：白日梦时间</title>
+      <link>https://book.douban.com/subject/36897268/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4975197359</guid>
+      <pubDate>Mon, 26 Oct 2026 19:36:33 +0800</pubDate>
+      <category>book</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">想读</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://book.douban.com/subject/36897268/" title="九井谅子涂鸦集：白日梦时间"&gt;
+    &lt;img alt="九井谅子涂鸦集：白日梦时间" src="https://img9.doubanio.com/view/subject/s/public/s34893846.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>读过進擊的巨人 26</title>
+      <link>https://book.douban.com/subject/30276785/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4975197232</guid>
+      <pubDate>Mon, 26 Oct 2026 19:36:20 +0800</pubDate>
+      <category>book</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">读过</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://book.douban.com/subject/30276785/" title="進擊的巨人 26"&gt;
+    &lt;img alt="進擊的巨人 26" src="https://img3.doubanio.com/view/subject/s/public/s29924192.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;推荐: 推荐&lt;/p&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
     <item>
       <title>看过时光代理人 第三季</title>
       <link>https://movie.douban.com/subject/37192944/</link>

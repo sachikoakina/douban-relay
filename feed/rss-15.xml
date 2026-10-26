@@ -6,8 +6,51 @@
     <description>豆瓣公开 RSS 的增量归档：仅收录启用之后的条目，去重后保留最近若干条。</description>
     <language>zh-CN</language>
     <ttl>20</ttl>
-    <lastBuildDate>Mon, 26 Oct 2026 13:51:10 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 21:33:33 +0800</lastBuildDate>
     <atom:link href="https://sachikoakina.github.io/douban-relay/rss-15.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>想读日常 5</title>
+      <link>https://book.douban.com/subject/5254384/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4975197407</guid>
+      <pubDate>Mon, 26 Oct 2026 19:36:37 +0800</pubDate>
+      <category>book</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">想读</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://book.douban.com/subject/5254384/" title="日常 5"&gt;
+    &lt;img alt="日常 5" src="https://img3.doubanio.com/view/subject/s/public/s4461549.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>想读九井谅子涂鸦集：白日梦时间</title>
+      <link>https://book.douban.com/subject/36897268/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4975197359</guid>
+      <pubDate>Mon, 26 Oct 2026 19:36:33 +0800</pubDate>
+      <category>book</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">想读</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://book.douban.com/subject/36897268/" title="九井谅子涂鸦集：白日梦时间"&gt;
+    &lt;img alt="九井谅子涂鸦集：白日梦时间" src="https://img9.doubanio.com/view/subject/s/public/s34893846.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>读过進擊的巨人 26</title>
+      <link>https://book.douban.com/subject/30276785/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4975197232</guid>
+      <pubDate>Mon, 26 Oct 2026 19:36:20 +0800</pubDate>
+      <category>book</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">读过</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://book.douban.com/subject/30276785/" title="進擊的巨人 26"&gt;
+    &lt;img alt="進擊的巨人 26" src="https://img3.doubanio.com/view/subject/s/public/s29924192.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;推荐: 推荐&lt;/p&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
     <item>
       <title>看过时光代理人 第三季</title>
       <link>https://movie.douban.com/subject/37192944/</link>
@@ -185,62 +228,6 @@ Day2长谷川愁接任者，把保科、桐子叫来商量，绕一圈最棘手�
 Day3保科“西边最强”突袭有明基地。鸣海开会无故缺席，文书能拖就拖，空了就打游戏，被保科堵着互怼。一个自大一个毒舌，不打架，纯较劲。
 Day4同窗那集收一下，不回忆杀，不喊热血，就聊入队、开会、谁还躲报告。队长室堆模型、游戏机、外卖盒，他坐里头像普通社畜；换战装又一秒变最不讲理的那个人。
 有些强者不是没压力，是把压力全藏在“我再打一局”里。&lt;/p&gt;
-    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
-    </item>
-    <item>
-      <title>看过大侦探波洛 第六季</title>
-      <link>https://movie.douban.com/subject/24522857/</link>
-      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4955761451</guid>
-      <pubDate>Thu, 01 Oct 2026 18:04:55 +0800</pubDate>
-      <category>movie</category>
-      <dc:creator>琴弦月初</dc:creator>
-      <category domain="douban:status">看过</category>
-      <description>&lt;table&gt;&lt;tr&gt;
-    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/24522857/" title="Agatha Christie's Poirot"&gt;
-    &lt;img alt="Agatha Christie's Poirot" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1958736063.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
-    &lt;td&gt;
-        &lt;p&gt;推荐: 力荐&lt;/p&gt;
-        &lt;p&gt;备注: 第六季四集都改成长篇了。圣诞那集西米恩·李把儿女叫来挨个羞辱，晚上喉咙被割，私生子、旧南非的账全翻出来。波洛坐壁炉边听完，不多说，点破"最想杀他的，偏偏是最像他的人"。
-学舍那集最碎。丢罐头丢钢笔，后来死人。波洛对着作息表排，凶手藏在"顺手拿东西"里。
-高尔夫球场那集，雷诺半夜说有人害他，第二天埋沙坑里脸毁了。黑斯廷斯又恋爱，波洛和吉罗较劲。"死的人不一定是你想的那个人"，身份情妇叠一起，像家族群谣言传着传着出人命。
-无言的证人最静。艾米丽摔下楼梯，磷中毒，鲍勃不说话，比亲戚诚实。
-这季不逗贫了。黑斯廷斯还在，波洛越来越像在查"人为什么非要算计到死"。有些家，过节比凶案还累。&lt;/p&gt;
-    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
-    </item>
-    <item>
-      <title>看过无言的证人</title>
-      <link>https://movie.douban.com/subject/1421739/</link>
-      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4955719948</guid>
-      <pubDate>Thu, 01 Oct 2026 17:04:14 +0800</pubDate>
-      <category>movie</category>
-      <dc:creator>琴弦月初</dc:creator>
-      <category domain="douban:status">看过</category>
-      <description>&lt;table&gt;&lt;tr&gt;
-    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/1421739/" title="Poirot: Dumb Witness"&gt;
-    &lt;img alt="Poirot: Dumb Witness" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2176432009.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
-    &lt;td&gt;
-        &lt;p&gt;推荐: 力荐&lt;/p&gt;
-        &lt;p&gt;备注: 艾米丽小姐摔下楼梯，大家说是鲍勃的皮球滚到阶口。波洛到的时候人已经没了，新遗嘱把家产全给劳森，亲戚全傻眼了。
-这集不靠血腥。楼梯墙上的小铁环、护肝胶囊里的磷、鲍勃把球叼回窝的笨样，全是不响的东西。最会算计的是人，最老实的是狗。鲍勃不会说话，可它知道那晚谁在楼梯口。
-贝拉最闷。表面被丈夫压着、怯怯的，像那种"看着最可怜、其实最藏事"的亲戚。想从姑妈、丈夫、孩子之间抠出一条自己能活的路，抠着抠着就下毒了。波洛拆穿她时也没多得意，只说"你太会演软弱了"。
-丧事那天没人哭得大声，可每个人都在算自己还剩多少。有些亲人，活着时嫌你给得少，死了后嫌你给错了人。&lt;/p&gt;
-    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
-    </item>
-    <item>
-      <title>看过轻音少女 剧场版</title>
-      <link>https://movie.douban.com/subject/5403927/</link>
-      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4955585320</guid>
-      <pubDate>Thu, 01 Oct 2026 13:27:31 +0800</pubDate>
-      <category>movie</category>
-      <dc:creator>琴弦月初</dc:creator>
-      <category domain="douban:status">看过</category>
-      <description>&lt;table&gt;&lt;tr&gt;
-    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/5403927/" title="映画 けいおん!"&gt;
-    &lt;img alt="映画 けいおん!" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2040458823.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
-    &lt;td&gt;
-        &lt;p&gt;推荐: 力荐&lt;/p&gt;
-        &lt;p&gt;备注: 毕业前决定去伦敦，唯拎着吉他就兴奋，律闹着要自己定行程，澪列了一堆音乐地名，最后被紬和乌龟定下来。到了以后出租车送错酒店，寿司店又被误当乐队推上台，唯弹错、澪低头、律敲鼓像没事人，梓抱着琴袋站旁边，又窘又忍不住笑。伦敦眼、街区、茶馆这些景点不抢戏，她们迷路、看菜单、用蹩脚英语跟人比划，真是青春美好啊。
-可往下就开始绕写歌。唯给梓填词，写一句划一句，澪只低头试旋律，紬把茶泡到部室里，律嘴上催，手上帮着贴便签。回国后在教室唱《相遇天使》，佐和子站在走廊没拦，黑板上后来写满字，活动室茶具还摆着。可轻音本来就不是靠冲突吃饭。看到梓被一群人围着唱，不哭不抱，就红着眼说下次还要一起，才觉得异国再热闹，最后还是部室那点太阳最舍不得。&lt;/p&gt;
     &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
     </item>
   </channel>
