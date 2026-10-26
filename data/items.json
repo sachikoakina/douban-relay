@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "key": "9b2dddacf444a03a2428",
+   "guid": "https://www.douban.com/people/201878529/interests/4828629116",
+   "cat": "movie",
+   "status": "看过",
+   "title": "看过时光代理人 第三季",
+   "link": "https://movie.douban.com/subject/37192944/",
+   "published": "2026-10-26T05:33:49Z",
+   "updated": "2026-10-26T05:33:49Z",
+   "summary": "<table><tr>\n    <td width=\"80px\"><a href=\"https://movie.douban.com/subject/37192944/\" title=\"时光代理人 第三季\">\n    <img alt=\"时光代理人 第三季\" src=\"https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2934938769.jpg\" /></a></td>\n    <td>\n        <p>推荐: 还行</p>\n    </td></tr></table>",
+   "author": "琴弦月初"
+  },
+  {
+   "key": "7b0f54ff1df5e60a6a9a",
+   "guid": "https://www.douban.com/people/201878529/interests/4974987003",
+   "cat": "movie",
+   "status": "在看",
+   "title": "在看大理寺日志3",
+   "link": "https://movie.douban.com/subject/36514822/",
+   "published": "2026-10-26T05:32:28Z",
+   "updated": "2026-10-26T05:32:28Z",
+   "summary": "<table><tr>\n    <td width=\"80px\"><a href=\"https://movie.douban.com/subject/36514822/\" title=\"大理寺日志3\">\n    <img alt=\"大理寺日志3\" src=\"https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2936729244.jpg\" /></a></td>\n    <td>\n    </td></tr></table>",
+   "author": "琴弦月初"
+  },
+  {
    "key": "1aa2d726a51a5f516a70",
    "guid": "https://www.douban.com/people/201878529/interests/4974944930",
    "cat": "movie",

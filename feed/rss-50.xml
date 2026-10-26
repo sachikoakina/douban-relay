@@ -6,8 +6,37 @@
     <description>豆瓣公开 RSS 的增量归档：仅收录启用之后的条目，去重后保留最近若干条。</description>
     <language>zh-CN</language>
     <ttl>20</ttl>
-    <lastBuildDate>Mon, 26 Oct 2026 12:25:50 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 13:51:10 +0800</lastBuildDate>
     <atom:link href="https://sachikoakina.github.io/douban-relay/rss-50.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>看过时光代理人 第三季</title>
+      <link>https://movie.douban.com/subject/37192944/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4828629116</guid>
+      <pubDate>Mon, 26 Oct 2026 13:33:49 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">看过</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/37192944/" title="时光代理人 第三季"&gt;
+    &lt;img alt="时光代理人 第三季" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2934938769.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;推荐: 还行&lt;/p&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>在看大理寺日志3</title>
+      <link>https://movie.douban.com/subject/36514822/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4974987003</guid>
+      <pubDate>Mon, 26 Oct 2026 13:32:28 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">在看</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/36514822/" title="大理寺日志3"&gt;
+    &lt;img alt="大理寺日志3" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2936729244.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
     <item>
       <title>看过狐妖小红娘 黄风岭篇</title>
       <link>https://movie.douban.com/subject/36994883/</link>
