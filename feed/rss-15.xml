@@ -6,8 +6,22 @@
     <description>豆瓣公开 RSS 的增量归档：仅收录启用之后的条目，去重后保留最近若干条。</description>
     <language>zh-CN</language>
     <ttl>20</ttl>
-    <lastBuildDate>Mon, 26 Oct 2026 21:33:33 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 20:16:45 +0800</lastBuildDate>
     <atom:link href="https://sachikoakina.github.io/douban-relay/rss-15.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>想看淫兽教师真人版</title>
+      <link>https://movie.douban.com/subject/5091716/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4976639718</guid>
+      <pubDate>Wed, 28 Oct 2026 19:49:21 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">想看</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/5091716/" title="淫獣教師 実写版"&gt;
+    &lt;img alt="淫獣教師 実写版" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2188137014.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
     <item>
       <title>想读日常 5</title>
       <link>https://book.douban.com/subject/5254384/</link>
@@ -208,26 +222,6 @@
     &lt;img alt="人鼠之间" src="https://img9.doubanio.com/view/subject/s/public/s35336505.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
     &lt;td&gt;
         &lt;p&gt;推荐: 还行&lt;/p&gt;
-    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
-    </item>
-    <item>
-      <title>看过怪兽8号 鸣海的日常</title>
-      <link>https://movie.douban.com/subject/38067591/</link>
-      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4818042573</guid>
-      <pubDate>Thu, 08 Oct 2026 08:00:23 +0800</pubDate>
-      <category>movie</category>
-      <dc:creator>琴弦月初</dc:creator>
-      <category domain="douban:status">看过</category>
-      <description>&lt;table&gt;&lt;tr&gt;
-    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/38067591/" title="怪獣8号 鳴海の平日"&gt;
-    &lt;img alt="怪獣8号 鳴海の平日" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2932848633.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
-    &lt;td&gt;
-        &lt;p&gt;推荐: 还行&lt;/p&gt;
-        &lt;p&gt;备注: Day1家庭餐厅，他瘫着摸鱼，第一部队小队长坐隔壁，他竖耳朵偷听，听到全是在吐槽队长开会溜号、文书不签。内山昂辉配这种人最省劲，战场里嚣张，餐厅里装没事，被点名了嘴硬两句，又低头戳手机。
-Day2长谷川愁接任者，把保科、桐子叫来商量，绕一圈最棘手的还是鸣海那点破言行。保科第三部队副队长，毒舌不客气，鸣海不在场也被念一遍。
-Day3保科“西边最强”突袭有明基地。鸣海开会无故缺席，文书能拖就拖，空了就打游戏，被保科堵着互怼。一个自大一个毒舌，不打架，纯较劲。
-Day4同窗那集收一下，不回忆杀，不喊热血，就聊入队、开会、谁还躲报告。队长室堆模型、游戏机、外卖盒，他坐里头像普通社畜；换战装又一秒变最不讲理的那个人。
-有些强者不是没压力，是把压力全藏在“我再打一局”里。&lt;/p&gt;
     &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
     </item>
   </channel>
