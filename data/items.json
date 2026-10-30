@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "key": "d0d180c456db25ec81a1",
+   "guid": "https://www.douban.com/people/201878529/interests/4977832481",
+   "cat": "movie",
+   "status": "想看",
+   "title": "想看藤本树 17-26",
+   "link": "https://movie.douban.com/subject/37517140/",
+   "published": "2026-10-30T06:08:56Z",
+   "updated": "2026-10-30T06:08:56Z",
+   "summary": "<table><tr>\n    <td width=\"80px\"><a href=\"https://movie.douban.com/subject/37517140/\" title=\"藤本タツキ 17-26\">\n    <img alt=\"藤本タツキ 17-26\" src=\"https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2928648094.jpg\" /></a></td>\n    <td>\n    </td></tr></table>",
+   "author": "琴弦月初"
+  },
+  {
+   "key": "16cc6d00266a1fe9c04a",
+   "guid": "https://www.douban.com/people/201878529/interests/4977832371",
+   "cat": "movie",
+   "status": "想看",
+   "title": "想看疾速追杀",
+   "link": "https://movie.douban.com/subject/25798131/",
+   "published": "2026-10-30T06:08:39Z",
+   "updated": "2026-10-30T06:08:39Z",
+   "summary": "<table><tr>\n    <td width=\"80px\"><a href=\"https://movie.douban.com/subject/25798131/\" title=\"John Wick\">\n    <img alt=\"John Wick\" src=\"https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2936502228.jpg\" /></a></td>\n    <td>\n    </td></tr></table>",
+   "author": "琴弦月初"
+  },
+  {
    "key": "dcc63fc9b9c8cfd5e8e4",
    "guid": "https://www.douban.com/people/201878529/interests/4976639718",
    "cat": "movie",

@@ -6,8 +6,36 @@
     <description>豆瓣公开 RSS 的增量归档：仅收录启用之后的条目，去重后保留最近若干条。</description>
     <language>zh-CN</language>
     <ttl>20</ttl>
-    <lastBuildDate>Wed, 28 Oct 2026 20:16:45 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 14:33:20 +0800</lastBuildDate>
     <atom:link href="https://sachikoakina.github.io/douban-relay/rss-15.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>想看藤本树 17-26</title>
+      <link>https://movie.douban.com/subject/37517140/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4977832481</guid>
+      <pubDate>Fri, 30 Oct 2026 14:08:56 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">想看</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/37517140/" title="藤本タツキ 17-26"&gt;
+    &lt;img alt="藤本タツキ 17-26" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2928648094.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>想看疾速追杀</title>
+      <link>https://movie.douban.com/subject/25798131/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4977832371</guid>
+      <pubDate>Fri, 30 Oct 2026 14:08:39 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">想看</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/25798131/" title="John Wick"&gt;
+    &lt;img alt="John Wick" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2936502228.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
     <item>
       <title>想看淫兽教师真人版</title>
       <link>https://movie.douban.com/subject/5091716/</link>
@@ -193,35 +221,6 @@
     &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/38399537/" title="葬送のフリーレン 第3期【黄金郷編】"&gt;
     &lt;img alt="葬送のフリーレン 第3期【黄金郷編】" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2931217724.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
     &lt;td&gt;
-    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
-    </item>
-    <item>
-      <title>想看咒术回战 第四季</title>
-      <link>https://movie.douban.com/subject/38194362/</link>
-      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4966781668</guid>
-      <pubDate>Fri, 16 Oct 2026 00:15:10 +0800</pubDate>
-      <category>movie</category>
-      <dc:creator>琴弦月初</dc:creator>
-      <category domain="douban:status">想看</category>
-      <description>&lt;table&gt;&lt;tr&gt;
-    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/38194362/" title="呪術廻戦 死滅回游 後編"&gt;
-    &lt;img alt="呪術廻戦 死滅回游 後編" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2935349294.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
-    &lt;td&gt;
-    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
-    </item>
-    <item>
-      <title>读过人鼠之间</title>
-      <link>https://book.douban.com/subject/37900523/</link>
-      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4962440766</guid>
-      <pubDate>Sat, 10 Oct 2026 11:23:28 +0800</pubDate>
-      <category>book</category>
-      <dc:creator>琴弦月初</dc:creator>
-      <category domain="douban:status">读过</category>
-      <description>&lt;table&gt;&lt;tr&gt;
-    &lt;td width="80px"&gt;&lt;a href="https://book.douban.com/subject/37900523/" title="人鼠之间"&gt;
-    &lt;img alt="人鼠之间" src="https://img9.doubanio.com/view/subject/s/public/s35336505.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
-    &lt;td&gt;
-        &lt;p&gt;推荐: 还行&lt;/p&gt;
     &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
     </item>
   </channel>
