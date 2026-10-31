@@ -6,8 +6,26 @@
     <description>豆瓣公开 RSS 的增量归档：仅收录启用之后的条目，去重后保留最近若干条。</description>
     <language>zh-CN</language>
     <ttl>20</ttl>
-    <lastBuildDate>Fri, 30 Oct 2026 14:33:20 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 13:55:37 +0800</lastBuildDate>
     <atom:link href="https://sachikoakina.github.io/douban-relay/rss-30.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>看过化物语</title>
+      <link>https://movie.douban.com/subject/3893384/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4978498882</guid>
+      <pubDate>Sat, 31 Oct 2026 13:35:14 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">看过</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/3893384/" title="化物語"&gt;
+    &lt;img alt="化物語" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2554144600.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;推荐: 力荐&lt;/p&gt;
+        &lt;p&gt;备注: 第一遍看化物语，没看懂，感觉叽叽喳喳的不知道在讲些什么，意识超过剧情，满屏字飞来飞去，两个人站路灯下聊半天，SHAFT那套偏镜头，独特的表达方式，初看觉得这啥啊，对话比动作多，剧情被台词淹了。
+后来静下来看第二遍，才发现这化物语是魅力所在，不是没剧情，是它不急着讲，全藏在对话的缝隙里。黑仪下手是真快，算是半路截胡了，历还没反应过来就被拿捏，直接锁死。
+班长羽川翼好可惜啊，历找她倾诉的时候，她永远在，但暗恋不成，班长是什么都懂，就是没勇敢迈出第一步，导致历还是选了黑仪。&lt;/p&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
     <item>
       <title>想看藤本树 17-26</title>
       <link>https://movie.douban.com/subject/37517140/</link>
