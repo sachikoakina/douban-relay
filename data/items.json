@@ -1,6 +1,18 @@
 {
  "items": [
   {
+   "key": "1b76ea6c93b3ea899356",
+   "guid": "https://www.douban.com/people/201878529/interests/4979437292",
+   "cat": "movie",
+   "status": "看过",
+   "title": "看过因果报应",
+   "link": "https://movie.douban.com/subject/36934908/",
+   "published": "2026-11-01T09:33:02Z",
+   "updated": "2026-11-01T09:33:02Z",
+   "summary": "<table><tr>\n    <td width=\"80px\"><a href=\"https://movie.douban.com/subject/36934908/\" title=\"Maharaja\">\n    <img alt=\"Maharaja\" src=\"https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2915350868.jpg\" /></a></td>\n    <td>\n        <p>推荐: 推荐</p>\n    </td></tr></table>",
+   "author": "琴弦月初"
+  },
+  {
    "key": "1e23136d10640037f272",
    "guid": "https://www.douban.com/people/201878529/interests/3754374049",
    "cat": "movie",
