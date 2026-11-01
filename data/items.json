@@ -1,6 +1,18 @@
 {
  "items": [
   {
+   "key": "3eff48524900782e9155",
+   "guid": "https://www.douban.com/people/201878529/interests/4979157734",
+   "cat": "movie",
+   "status": "在看",
+   "title": "在看怪奇物语 第一季",
+   "link": "https://movie.douban.com/subject/26359270/",
+   "published": "2026-11-01T02:12:14Z",
+   "updated": "2026-11-01T02:12:14Z",
+   "summary": "<table><tr>\n    <td width=\"80px\"><a href=\"https://movie.douban.com/subject/26359270/\" title=\"Stranger Things\">\n    <img alt=\"Stranger Things\" src=\"https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2364206200.jpg\" /></a></td>\n    <td>\n    </td></tr></table>",
+   "author": "琴弦月初"
+  },
+  {
    "key": "1d05dbcf5a07d83622de",
    "guid": "https://www.douban.com/people/201878529/interests/4978498882",
    "cat": "movie",
