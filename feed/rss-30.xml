@@ -6,8 +6,42 @@
     <description>豆瓣公开 RSS 的增量归档：仅收录启用之后的条目，去重后保留最近若干条。</description>
     <language>zh-CN</language>
     <ttl>20</ttl>
-    <lastBuildDate>Sun, 01 Nov 2026 10:25:05 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 13:23:08 +0800</lastBuildDate>
     <atom:link href="https://sachikoakina.github.io/douban-relay/rss-30.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>看过蜘蛛侠：崭新之日</title>
+      <link>https://movie.douban.com/subject/36246195/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/3754374049</guid>
+      <pubDate>Sun, 01 Nov 2026 12:57:53 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">看过</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/36246195/" title="Spider-Man: Brand New Day"&gt;
+    &lt;img alt="Spider-Man: Brand New Day" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2934276912.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;推荐: 推荐&lt;/p&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>看过玩具总动员5</title>
+      <link>https://movie.douban.com/subject/36238849/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/3754189534</guid>
+      <pubDate>Sun, 01 Nov 2026 11:40:43 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">看过</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/36238849/" title="Toy Story 5"&gt;
+    &lt;img alt="Toy Story 5" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2933391462.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;推荐: 推荐&lt;/p&gt;
+        &lt;p&gt;备注: 巴斯和翠丝这回算是配上了，老玩具终于有个交代。
+主题挺贴合时代的，现在孩子眼里，平板手机比牛仔和太空人好玩。电子屏一亮，塑料玩具全靠边站，这个冲击拍出来，立意比单纯怀旧强。
+就是场合切得太快。上一秒还在讨论被冷落，下一秒已经换战场，情绪没站稳就赶着往下走。还有巴斯光年这个老款不会飞，笑死我了。
+不过想想第一部已经是三十多年前的事了，能再看到这群老家伙聚一块儿，已经算难得。这下总不该还有第六部了吧？&lt;/p&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
     <item>
       <title>在看怪奇物语 第一季</title>
       <link>https://movie.douban.com/subject/26359270/</link>
