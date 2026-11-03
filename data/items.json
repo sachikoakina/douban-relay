@@ -1,6 +1,18 @@
 {
  "items": [
   {
+   "key": "b2e3cec346912b685bb6",
+   "guid": "https://www.douban.com/people/201878529/interests/4981034722",
+   "cat": "movie",
+   "status": "看过",
+   "title": "看过挽救计划",
+   "link": "https://movie.douban.com/subject/35010610/",
+   "published": "2026-11-03T10:16:35Z",
+   "updated": "2026-11-03T10:16:35Z",
+   "summary": "<table><tr>\n    <td width=\"80px\"><a href=\"https://movie.douban.com/subject/35010610/\" title=\"Project Hail Mary\">\n    <img alt=\"Project Hail Mary\" src=\"https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2931370692.jpg\" /></a></td>\n    <td>\n        <p>推荐: 推荐</p>\n    </td></tr></table>",
+   "author": "琴弦月初"
+  },
+  {
    "key": "1b76ea6c93b3ea899356",
    "guid": "https://www.douban.com/people/201878529/interests/4979437292",
    "cat": "movie",
