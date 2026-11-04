@@ -1,6 +1,18 @@
 {
  "items": [
   {
+   "key": "b014d8474c0c89c71823",
+   "guid": "https://www.douban.com/people/201878529/interests/4981743865",
+   "cat": "movie",
+   "status": "想看",
+   "title": "想看关于约会的一切",
+   "link": "https://movie.douban.com/subject/37067150/",
+   "published": "2026-11-04T10:23:43Z",
+   "updated": "2026-11-04T10:23:43Z",
+   "summary": "<table><tr>\n    <td width=\"80px\"><a href=\"https://movie.douban.com/subject/37067150/\" title=\"Follemente\">\n    <img alt=\"Follemente\" src=\"https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2924636647.jpg\" /></a></td>\n    <td>\n    </td></tr></table>",
+   "author": "琴弦月初"
+  },
+  {
    "key": "b2e3cec346912b685bb6",
    "guid": "https://www.douban.com/people/201878529/interests/4981034722",
    "cat": "movie",

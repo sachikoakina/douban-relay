@@ -6,8 +6,22 @@
     <description>豆瓣公开 RSS 的增量归档：仅收录启用之后的条目，去重后保留最近若干条。</description>
     <language>zh-CN</language>
     <ttl>20</ttl>
-    <lastBuildDate>Tue, 03 Nov 2026 18:45:31 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 18:57:23 +0800</lastBuildDate>
     <atom:link href="https://sachikoakina.github.io/douban-relay/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>想看关于约会的一切</title>
+      <link>https://movie.douban.com/subject/37067150/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4981743865</guid>
+      <pubDate>Wed, 04 Nov 2026 18:23:43 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">想看</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/37067150/" title="Follemente"&gt;
+    &lt;img alt="Follemente" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2924636647.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
     <item>
       <title>看过挽救计划</title>
       <link>https://movie.douban.com/subject/35010610/</link>
