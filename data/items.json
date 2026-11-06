@@ -1,6 +1,18 @@
 {
  "items": [
   {
+   "key": "c80a3085364a4ee8b166",
+   "guid": "https://www.douban.com/people/201878529/interests/4900205496",
+   "cat": "movie",
+   "status": "看过",
+   "title": "看过八仙！",
+   "link": "https://movie.douban.com/subject/36882191/",
+   "published": "2026-11-06T11:41:12Z",
+   "updated": "2026-11-06T11:41:12Z",
+   "summary": "<table><tr>\n    <td width=\"80px\"><a href=\"https://movie.douban.com/subject/36882191/\" title=\"八仙！\">\n    <img alt=\"八仙！\" src=\"https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2934074566.jpg\" /></a></td>\n    <td>\n        <p>推荐: 力荐</p>\n    </td></tr></table>",
+   "author": "琴弦月初"
+  },
+  {
    "key": "ca31201da5f43bea552a",
    "guid": "https://www.douban.com/people/201878529/interests/4982429873",
    "cat": "movie",
