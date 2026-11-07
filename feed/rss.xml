@@ -6,8 +6,23 @@
     <description>豆瓣公开 RSS 的增量归档：仅收录启用之后的条目，去重后保留最近若干条。</description>
     <language>zh-CN</language>
     <ttl>20</ttl>
-    <lastBuildDate>Fri, 06 Nov 2026 19:42:43 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 08:34:41 +0800</lastBuildDate>
     <atom:link href="https://sachikoakina.github.io/douban-relay/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>看过忍者神龟</title>
+      <link>https://movie.douban.com/subject/1418187/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4983489472</guid>
+      <pubDate>Sat, 07 Nov 2026 08:09:19 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">看过</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/1418187/" title="TMNT"&gt;
+    &lt;img alt="TMNT" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2199290432.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;推荐: 较差&lt;/p&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
     <item>
       <title>看过八仙！</title>
       <link>https://movie.douban.com/subject/36882191/</link>
@@ -452,23 +467,6 @@ Day4同窗那集收一下，不回忆杀，不喊热血，就聊入队、开会�
 这集不靠血腥。楼梯墙上的小铁环、护肝胶囊里的磷、鲍勃把球叼回窝的笨样，全是不响的东西。最会算计的是人，最老实的是狗。鲍勃不会说话，可它知道那晚谁在楼梯口。
 贝拉最闷。表面被丈夫压着、怯怯的，像那种"看着最可怜、其实最藏事"的亲戚。想从姑妈、丈夫、孩子之间抠出一条自己能活的路，抠着抠着就下毒了。波洛拆穿她时也没多得意，只说"你太会演软弱了"。
 丧事那天没人哭得大声，可每个人都在算自己还剩多少。有些亲人，活着时嫌你给得少，死了后嫌你给错了人。&lt;/p&gt;
-    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
-    </item>
-    <item>
-      <title>看过轻音少女 剧场版</title>
-      <link>https://movie.douban.com/subject/5403927/</link>
-      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4955585320</guid>
-      <pubDate>Thu, 01 Oct 2026 13:27:31 +0800</pubDate>
-      <category>movie</category>
-      <dc:creator>琴弦月初</dc:creator>
-      <category domain="douban:status">看过</category>
-      <description>&lt;table&gt;&lt;tr&gt;
-    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/5403927/" title="映画 けいおん!"&gt;
-    &lt;img alt="映画 けいおん!" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2040458823.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
-    &lt;td&gt;
-        &lt;p&gt;推荐: 力荐&lt;/p&gt;
-        &lt;p&gt;备注: 毕业前决定去伦敦，唯拎着吉他就兴奋，律闹着要自己定行程，澪列了一堆音乐地名，最后被紬和乌龟定下来。到了以后出租车送错酒店，寿司店又被误当乐队推上台，唯弹错、澪低头、律敲鼓像没事人，梓抱着琴袋站旁边，又窘又忍不住笑。伦敦眼、街区、茶馆这些景点不抢戏，她们迷路、看菜单、用蹩脚英语跟人比划，真是青春美好啊。
-可往下就开始绕写歌。唯给梓填词，写一句划一句，澪只低头试旋律，紬把茶泡到部室里，律嘴上催，手上帮着贴便签。回国后在教室唱《相遇天使》，佐和子站在走廊没拦，黑板上后来写满字，活动室茶具还摆着。可轻音本来就不是靠冲突吃饭。看到梓被一群人围着唱，不哭不抱，就红着眼说下次还要一起，才觉得异国再热闹，最后还是部室那点太阳最舍不得。&lt;/p&gt;
     &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
     </item>
   </channel>

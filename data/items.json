@@ -1,6 +1,18 @@
 {
  "items": [
   {
+   "key": "c88d51356b36e48216d9",
+   "guid": "https://www.douban.com/people/201878529/interests/4983489472",
+   "cat": "movie",
+   "status": "看过",
+   "title": "看过忍者神龟",
+   "link": "https://movie.douban.com/subject/1418187/",
+   "published": "2026-11-07T00:09:19Z",
+   "updated": "2026-11-07T00:09:19Z",
+   "summary": "<table><tr>\n    <td width=\"80px\"><a href=\"https://movie.douban.com/subject/1418187/\" title=\"TMNT\">\n    <img alt=\"TMNT\" src=\"https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2199290432.jpg\" /></a></td>\n    <td>\n        <p>推荐: 较差</p>\n    </td></tr></table>",
+   "author": "琴弦月初"
+  },
+  {
    "key": "c80a3085364a4ee8b166",
    "guid": "https://www.douban.com/people/201878529/interests/4900205496",
    "cat": "movie",
