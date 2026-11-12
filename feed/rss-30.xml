@@ -6,8 +6,38 @@
     <description>豆瓣公开 RSS 的增量归档：仅收录启用之后的条目，去重后保留最近若干条。</description>
     <language>zh-CN</language>
     <ttl>20</ttl>
-    <lastBuildDate>Sat, 07 Nov 2026 08:34:41 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 01:17:04 +0800</lastBuildDate>
     <atom:link href="https://sachikoakina.github.io/douban-relay/rss-30.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>看过水漫金山</title>
+      <link>https://movie.douban.com/subject/10561951/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4987801073</guid>
+      <pubDate>Thu, 12 Nov 2026 23:33:36 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">看过</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/10561951/" title="水漫金山"&gt;
+    &lt;img alt="水漫金山" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2552084978.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;推荐: 推荐&lt;/p&gt;
+        &lt;p&gt;备注: 动画版白娘子，水漫金山那几集现在还有印象，画风很传统但讲得认真。童年对这段爱情最早的印象来源之一。&lt;/p&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>想看官能教室：爱的技巧</title>
+      <link>https://movie.douban.com/subject/2086541/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4987615791</guid>
+      <pubDate>Thu, 12 Nov 2026 19:44:56 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">想看</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/2086541/" title="官能教室 愛のテクニック"&gt;
+    &lt;img alt="官能教室 愛のテクニック" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2879694080.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
     <item>
       <title>看过忍者神龟</title>
       <link>https://movie.douban.com/subject/1418187/</link>
@@ -428,45 +458,6 @@ Day2长谷川愁接任者，把保科、桐子叫来商量，绕一圈最棘手�
 Day3保科“西边最强”突袭有明基地。鸣海开会无故缺席，文书能拖就拖，空了就打游戏，被保科堵着互怼。一个自大一个毒舌，不打架，纯较劲。
 Day4同窗那集收一下，不回忆杀，不喊热血，就聊入队、开会、谁还躲报告。队长室堆模型、游戏机、外卖盒，他坐里头像普通社畜；换战装又一秒变最不讲理的那个人。
 有些强者不是没压力，是把压力全藏在“我再打一局”里。&lt;/p&gt;
-    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
-    </item>
-    <item>
-      <title>看过大侦探波洛 第六季</title>
-      <link>https://movie.douban.com/subject/24522857/</link>
-      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4955761451</guid>
-      <pubDate>Thu, 01 Oct 2026 18:04:55 +0800</pubDate>
-      <category>movie</category>
-      <dc:creator>琴弦月初</dc:creator>
-      <category domain="douban:status">看过</category>
-      <description>&lt;table&gt;&lt;tr&gt;
-    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/24522857/" title="Agatha Christie's Poirot"&gt;
-    &lt;img alt="Agatha Christie's Poirot" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1958736063.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
-    &lt;td&gt;
-        &lt;p&gt;推荐: 力荐&lt;/p&gt;
-        &lt;p&gt;备注: 第六季四集都改成长篇了。圣诞那集西米恩·李把儿女叫来挨个羞辱，晚上喉咙被割，私生子、旧南非的账全翻出来。波洛坐壁炉边听完，不多说，点破"最想杀他的，偏偏是最像他的人"。
-学舍那集最碎。丢罐头丢钢笔，后来死人。波洛对着作息表排，凶手藏在"顺手拿东西"里。
-高尔夫球场那集，雷诺半夜说有人害他，第二天埋沙坑里脸毁了。黑斯廷斯又恋爱，波洛和吉罗较劲。"死的人不一定是你想的那个人"，身份情妇叠一起，像家族群谣言传着传着出人命。
-无言的证人最静。艾米丽摔下楼梯，磷中毒，鲍勃不说话，比亲戚诚实。
-这季不逗贫了。黑斯廷斯还在，波洛越来越像在查"人为什么非要算计到死"。有些家，过节比凶案还累。&lt;/p&gt;
-    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
-    </item>
-    <item>
-      <title>看过无言的证人</title>
-      <link>https://movie.douban.com/subject/1421739/</link>
-      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4955719948</guid>
-      <pubDate>Thu, 01 Oct 2026 17:04:14 +0800</pubDate>
-      <category>movie</category>
-      <dc:creator>琴弦月初</dc:creator>
-      <category domain="douban:status">看过</category>
-      <description>&lt;table&gt;&lt;tr&gt;
-    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/1421739/" title="Poirot: Dumb Witness"&gt;
-    &lt;img alt="Poirot: Dumb Witness" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2176432009.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
-    &lt;td&gt;
-        &lt;p&gt;推荐: 力荐&lt;/p&gt;
-        &lt;p&gt;备注: 艾米丽小姐摔下楼梯，大家说是鲍勃的皮球滚到阶口。波洛到的时候人已经没了，新遗嘱把家产全给劳森，亲戚全傻眼了。
-这集不靠血腥。楼梯墙上的小铁环、护肝胶囊里的磷、鲍勃把球叼回窝的笨样，全是不响的东西。最会算计的是人，最老实的是狗。鲍勃不会说话，可它知道那晚谁在楼梯口。
-贝拉最闷。表面被丈夫压着、怯怯的，像那种"看着最可怜、其实最藏事"的亲戚。想从姑妈、丈夫、孩子之间抠出一条自己能活的路，抠着抠着就下毒了。波洛拆穿她时也没多得意，只说"你太会演软弱了"。
-丧事那天没人哭得大声，可每个人都在算自己还剩多少。有些亲人，活着时嫌你给得少，死了后嫌你给错了人。&lt;/p&gt;
     &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
     </item>
   </channel>

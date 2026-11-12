@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "key": "2c3c27883cef87bd9613",
+   "guid": "https://www.douban.com/people/201878529/interests/4987801073",
+   "cat": "movie",
+   "status": "看过",
+   "title": "看过水漫金山",
+   "link": "https://movie.douban.com/subject/10561951/",
+   "published": "2026-11-12T15:33:36Z",
+   "updated": "2026-11-12T15:33:36Z",
+   "summary": "<table><tr>\n    <td width=\"80px\"><a href=\"https://movie.douban.com/subject/10561951/\" title=\"水漫金山\">\n    <img alt=\"水漫金山\" src=\"https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2552084978.jpg\" /></a></td>\n    <td>\n        <p>推荐: 推荐</p>\n        <p>备注: 动画版白娘子，水漫金山那几集现在还有印象，画风很传统但讲得认真。童年对这段爱情最早的印象来源之一。</p>\n    </td></tr></table>",
+   "author": "琴弦月初"
+  },
+  {
+   "key": "d6033eb974b172213a45",
+   "guid": "https://www.douban.com/people/201878529/interests/4987615791",
+   "cat": "movie",
+   "status": "想看",
+   "title": "想看官能教室：爱的技巧",
+   "link": "https://movie.douban.com/subject/2086541/",
+   "published": "2026-11-12T11:44:56Z",
+   "updated": "2026-11-12T11:44:56Z",
+   "summary": "<table><tr>\n    <td width=\"80px\"><a href=\"https://movie.douban.com/subject/2086541/\" title=\"官能教室 愛のテクニック\">\n    <img alt=\"官能教室 愛のテクニック\" src=\"https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2879694080.jpg\" /></a></td>\n    <td>\n    </td></tr></table>",
+   "author": "琴弦月初"
+  },
+  {
    "key": "c88d51356b36e48216d9",
    "guid": "https://www.douban.com/people/201878529/interests/4983489472",
    "cat": "movie",
