@@ -6,8 +6,23 @@
     <description>豆瓣公开 RSS 的增量归档：仅收录启用之后的条目，去重后保留最近若干条。</description>
     <language>zh-CN</language>
     <ttl>20</ttl>
-    <lastBuildDate>Tue, 17 Nov 2026 00:41:29 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 16:27:15 +0800</lastBuildDate>
     <atom:link href="https://sachikoakina.github.io/douban-relay/rss-15.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>看过忍风战队破里剑者</title>
+      <link>https://movie.douban.com/subject/3828055/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4991161863</guid>
+      <pubDate>Tue, 17 Nov 2026 11:43:12 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">看过</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/3828055/" title="忍風戦隊ハリケンジャー"&gt;
+    &lt;img alt="忍風戦隊ハリケンジャー" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2218867728.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;推荐: 力荐&lt;/p&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
     <item>
       <title>看过驯龙高手：归家</title>
       <link>https://movie.douban.com/subject/34857400/</link>
@@ -223,20 +238,6 @@
       <description>&lt;table&gt;&lt;tr&gt;
     &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/37517140/" title="藤本タツキ 17-26"&gt;
     &lt;img alt="藤本タツキ 17-26" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2928648094.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
-    &lt;td&gt;
-    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
-    </item>
-    <item>
-      <title>想看疾速追杀</title>
-      <link>https://movie.douban.com/subject/25798131/</link>
-      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4977832371</guid>
-      <pubDate>Fri, 30 Oct 2026 14:08:39 +0800</pubDate>
-      <category>movie</category>
-      <dc:creator>琴弦月初</dc:creator>
-      <category domain="douban:status">想看</category>
-      <description>&lt;table&gt;&lt;tr&gt;
-    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/25798131/" title="John Wick"&gt;
-    &lt;img alt="John Wick" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2936502228.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
     &lt;td&gt;
     &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
     </item>

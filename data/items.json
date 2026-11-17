@@ -1,6 +1,18 @@
 {
  "items": [
   {
+   "key": "2df40d9a8e19d8f2d619",
+   "guid": "https://www.douban.com/people/201878529/interests/4991161863",
+   "cat": "movie",
+   "status": "看过",
+   "title": "看过忍风战队破里剑者",
+   "link": "https://movie.douban.com/subject/3828055/",
+   "published": "2026-11-17T03:43:12Z",
+   "updated": "2026-11-17T03:43:12Z",
+   "summary": "<table><tr>\n    <td width=\"80px\"><a href=\"https://movie.douban.com/subject/3828055/\" title=\"忍風戦隊ハリケンジャー\">\n    <img alt=\"忍風戦隊ハリケンジャー\" src=\"https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2218867728.jpg\" /></a></td>\n    <td>\n        <p>推荐: 力荐</p>\n    </td></tr></table>",
+   "author": "琴弦月初"
+  },
+  {
    "key": "1890efcdddadeb0b13b5",
    "guid": "https://www.douban.com/people/201878529/interests/4990561016",
    "cat": "movie",
