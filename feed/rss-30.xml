@@ -6,8 +6,24 @@
     <description>豆瓣公开 RSS 的增量归档：仅收录启用之后的条目，去重后保留最近若干条。</description>
     <language>zh-CN</language>
     <ttl>20</ttl>
-    <lastBuildDate>Tue, 17 Nov 2026 16:27:15 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 00:52:55 +0800</lastBuildDate>
     <atom:link href="https://sachikoakina.github.io/douban-relay/rss-30.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>看过忍风战队破里剑者是也！咻咻的20周年</title>
+      <link>https://movie.douban.com/subject/36140201/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4992247091</guid>
+      <pubDate>Wed, 18 Nov 2026 18:59:16 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">看过</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/36140201/" title="忍風戦隊ハリケンジャーでござる! シュシュッと20th Anniversary"&gt;
+    &lt;img alt="忍風戦隊ハリケンジャーでござる! シュシュッと20th Anniversary" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2882689915.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;推荐: 还行&lt;/p&gt;
+        &lt;p&gt;备注: 20年后的剧场版能出已经实属难得了，再加上原班人马出演，盐谷瞬、长泽奈央、山本康平、白川裕二郎、姜雄——全员回来，一人分饰现代和江户先祖两角。七海（长泽奈央）真的没什么变化，状态好得离谱；其他几位明显老了，动作戏还是亲自上，但这些已经完全不能说其他的了，已经不能奢望太多了。情怀分拉满，其他就一般般了。&lt;/p&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
     <item>
       <title>看过忍风战队破里剑者</title>
       <link>https://movie.douban.com/subject/3828055/</link>
@@ -439,20 +455,6 @@
       <description>&lt;table&gt;&lt;tr&gt;
     &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/38399537/" title="葬送のフリーレン 第3期【黄金郷編】"&gt;
     &lt;img alt="葬送のフリーレン 第3期【黄金郷編】" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2931217724.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
-    &lt;td&gt;
-    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
-    </item>
-    <item>
-      <title>想看咒术回战 第四季</title>
-      <link>https://movie.douban.com/subject/38194362/</link>
-      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4966781668</guid>
-      <pubDate>Fri, 16 Oct 2026 00:15:10 +0800</pubDate>
-      <category>movie</category>
-      <dc:creator>琴弦月初</dc:creator>
-      <category domain="douban:status">想看</category>
-      <description>&lt;table&gt;&lt;tr&gt;
-    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/38194362/" title="呪術廻戦 死滅回游 後編"&gt;
-    &lt;img alt="呪術廻戦 死滅回游 後編" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2935349294.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
     &lt;td&gt;
     &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
     </item>
