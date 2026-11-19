@@ -6,8 +6,128 @@
     <description>豆瓣公开 RSS 的增量归档：仅收录启用之后的条目，去重后保留最近若干条。</description>
     <language>zh-CN</language>
     <ttl>20</ttl>
-    <lastBuildDate>Thu, 19 Nov 2026 00:52:55 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 21:18:28 +0800</lastBuildDate>
     <atom:link href="https://sachikoakina.github.io/douban-relay/rss-15.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>看过自然的力量</title>
+      <link>https://movie.douban.com/subject/26474262/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4993081318</guid>
+      <pubDate>Thu, 19 Nov 2026 21:06:53 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">看过</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/26474262/" title="Forces of Nature"&gt;
+    &lt;img alt="Forces of Nature" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2524956428.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;推荐: 还行&lt;/p&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>看过香肠</title>
+      <link>https://movie.douban.com/subject/26910847/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4993078399</guid>
+      <pubDate>Thu, 19 Nov 2026 21:02:32 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">看过</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/26910847/" title="Weenie"&gt;
+    &lt;img alt="Weenie" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2424729558.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;推荐: 还行&lt;/p&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>看过凯尔的秘密生活</title>
+      <link>https://movie.douban.com/subject/27166021/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4993071826</guid>
+      <pubDate>Thu, 19 Nov 2026 20:53:44 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">看过</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/27166021/" title="The Secret Life of Kyle"&gt;
+    &lt;img alt="The Secret Life of Kyle" src="https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2506314661.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;推荐: 推荐&lt;/p&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>看过辅助轮</title>
+      <link>https://movie.douban.com/subject/25750824/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4993069297</guid>
+      <pubDate>Thu, 19 Nov 2026 20:50:05 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">看过</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/25750824/" title="Training Wheels"&gt;
+    &lt;img alt="Training Wheels" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2903046986.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;推荐: 推荐&lt;/p&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>看过诺尔曼电视台</title>
+      <link>https://movie.douban.com/subject/26909613/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4993067549</guid>
+      <pubDate>Thu, 19 Nov 2026 20:47:37 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">看过</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/26909613/" title="Norman Television"&gt;
+    &lt;img alt="Norman Television" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2595010857.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;推荐: 推荐&lt;/p&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>看过宠物</title>
+      <link>https://movie.douban.com/subject/25750820/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4993065094</guid>
+      <pubDate>Thu, 19 Nov 2026 20:44:08 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">看过</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/25750820/" title="Puppy"&gt;
+    &lt;img alt="Puppy" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2920148982.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;推荐: 推荐&lt;/p&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>看过圣诞老人的小帮手</title>
+      <link>https://movie.douban.com/subject/30441253/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4993034100</guid>
+      <pubDate>Thu, 19 Nov 2026 19:58:34 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">看过</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/30441253/" title="Santa's Little Helpers"&gt;
+    &lt;img alt="Santa's Little Helpers" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2571502163.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;推荐: 推荐&lt;/p&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>看过忍风战队破里剑者 10年之后</title>
+      <link>https://movie.douban.com/subject/23163936/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4993026983</guid>
+      <pubDate>Thu, 19 Nov 2026 19:47:55 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">看过</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/23163936/" title="忍風戦隊ハリケンジャー 10 YEARS AFTER"&gt;
+    &lt;img alt="忍風戦隊ハリケンジャー 10 YEARS AFTER" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2007322263.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;推荐: 还行&lt;/p&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
     <item>
       <title>看过忍风战队破里剑者是也！咻咻的20周年</title>
       <link>https://movie.douban.com/subject/36140201/</link>
@@ -113,134 +233,6 @@
     &lt;img alt="八仙！" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2934074566.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
     &lt;td&gt;
         &lt;p&gt;推荐: 力荐&lt;/p&gt;
-    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
-    </item>
-    <item>
-      <title>看过功夫女足</title>
-      <link>https://movie.douban.com/subject/36452545/</link>
-      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4982429873</guid>
-      <pubDate>Thu, 05 Nov 2026 18:22:34 +0800</pubDate>
-      <category>movie</category>
-      <dc:creator>琴弦月初</dc:creator>
-      <category domain="douban:status">看过</category>
-      <description>&lt;table&gt;&lt;tr&gt;
-    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/36452545/" title="功夫女足"&gt;
-    &lt;img alt="功夫女足" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2933860063.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
-    &lt;td&gt;
-        &lt;p&gt;推荐: 还行&lt;/p&gt;
-        &lt;p&gt;备注: 前45分钟看得人想砸遥控器。叙事稀碎，感官混乱，完全不知道在讲什么。全靠星爷那套无厘头老笑料吊着，撑过开头那段煎熬，才算是进入剧情。除此之外，剧情松散得一塌糊涂，发展太快了，人物行为全靠强行推动，逻辑基本为零。
-整部片唯一让人坐直了身子的是结尾彩蛋——原《功夫足球》的人冒出来说"再打一场吧"。那一瞬间确实有点东西，勾起当年看少林足球的回忆，算是给这片子留了条后路。
-但除此之外，真没什么可取之处。想蹭IP红利又没那个本事，功夫和女足的融合生硬得像硬凑的命题作文。笑点还行，剧情烂，除了最后那点情怀彩蛋，剩下的时间都是在看星爷的面子了。&lt;/p&gt;
-    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
-    </item>
-    <item>
-      <title>想看关于约会的一切</title>
-      <link>https://movie.douban.com/subject/37067150/</link>
-      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4981743865</guid>
-      <pubDate>Wed, 04 Nov 2026 18:23:43 +0800</pubDate>
-      <category>movie</category>
-      <dc:creator>琴弦月初</dc:creator>
-      <category domain="douban:status">想看</category>
-      <description>&lt;table&gt;&lt;tr&gt;
-    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/37067150/" title="Follemente"&gt;
-    &lt;img alt="Follemente" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2924636647.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
-    &lt;td&gt;
-    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
-    </item>
-    <item>
-      <title>看过挽救计划</title>
-      <link>https://movie.douban.com/subject/35010610/</link>
-      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4981034722</guid>
-      <pubDate>Tue, 03 Nov 2026 18:16:35 +0800</pubDate>
-      <category>movie</category>
-      <dc:creator>琴弦月初</dc:creator>
-      <category domain="douban:status">看过</category>
-      <description>&lt;table&gt;&lt;tr&gt;
-    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/35010610/" title="Project Hail Mary"&gt;
-    &lt;img alt="Project Hail Mary" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2931370692.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
-    &lt;td&gt;
-        &lt;p&gt;推荐: 推荐&lt;/p&gt;
-    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
-    </item>
-    <item>
-      <title>看过因果报应</title>
-      <link>https://movie.douban.com/subject/36934908/</link>
-      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4979437292</guid>
-      <pubDate>Sun, 01 Nov 2026 17:33:02 +0800</pubDate>
-      <category>movie</category>
-      <dc:creator>琴弦月初</dc:creator>
-      <category domain="douban:status">看过</category>
-      <description>&lt;table&gt;&lt;tr&gt;
-    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/36934908/" title="Maharaja"&gt;
-    &lt;img alt="Maharaja" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2915350868.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
-    &lt;td&gt;
-        &lt;p&gt;推荐: 推荐&lt;/p&gt;
-    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
-    </item>
-    <item>
-      <title>看过蜘蛛侠：崭新之日</title>
-      <link>https://movie.douban.com/subject/36246195/</link>
-      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/3754374049</guid>
-      <pubDate>Sun, 01 Nov 2026 12:57:53 +0800</pubDate>
-      <category>movie</category>
-      <dc:creator>琴弦月初</dc:creator>
-      <category domain="douban:status">看过</category>
-      <description>&lt;table&gt;&lt;tr&gt;
-    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/36246195/" title="Spider-Man: Brand New Day"&gt;
-    &lt;img alt="Spider-Man: Brand New Day" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2934276912.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
-    &lt;td&gt;
-        &lt;p&gt;推荐: 推荐&lt;/p&gt;
-    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
-    </item>
-    <item>
-      <title>看过玩具总动员5</title>
-      <link>https://movie.douban.com/subject/36238849/</link>
-      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/3754189534</guid>
-      <pubDate>Sun, 01 Nov 2026 11:40:43 +0800</pubDate>
-      <category>movie</category>
-      <dc:creator>琴弦月初</dc:creator>
-      <category domain="douban:status">看过</category>
-      <description>&lt;table&gt;&lt;tr&gt;
-    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/36238849/" title="Toy Story 5"&gt;
-    &lt;img alt="Toy Story 5" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2933391462.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
-    &lt;td&gt;
-        &lt;p&gt;推荐: 推荐&lt;/p&gt;
-        &lt;p&gt;备注: 巴斯和翠丝这回算是配上了，老玩具终于有个交代。
-主题挺贴合时代的，现在孩子眼里，平板手机比牛仔和太空人好玩。电子屏一亮，塑料玩具全靠边站，这个冲击拍出来，立意比单纯怀旧强。
-就是场合切得太快。上一秒还在讨论被冷落，下一秒已经换战场，情绪没站稳就赶着往下走。还有巴斯光年这个老款不会飞，笑死我了。
-不过想想第一部已经是三十多年前的事了，能再看到这群老家伙聚一块儿，已经算难得。这下总不该还有第六部了吧？&lt;/p&gt;
-    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
-    </item>
-    <item>
-      <title>在看怪奇物语 第一季</title>
-      <link>https://movie.douban.com/subject/26359270/</link>
-      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4979157734</guid>
-      <pubDate>Sun, 01 Nov 2026 10:12:14 +0800</pubDate>
-      <category>movie</category>
-      <dc:creator>琴弦月初</dc:creator>
-      <category domain="douban:status">在看</category>
-      <description>&lt;table&gt;&lt;tr&gt;
-    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/26359270/" title="Stranger Things"&gt;
-    &lt;img alt="Stranger Things" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2364206200.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
-    &lt;td&gt;
-    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
-    </item>
-    <item>
-      <title>看过化物语</title>
-      <link>https://movie.douban.com/subject/3893384/</link>
-      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4978498882</guid>
-      <pubDate>Sat, 31 Oct 2026 13:35:14 +0800</pubDate>
-      <category>movie</category>
-      <dc:creator>琴弦月初</dc:creator>
-      <category domain="douban:status">看过</category>
-      <description>&lt;table&gt;&lt;tr&gt;
-    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/3893384/" title="化物語"&gt;
-    &lt;img alt="化物語" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2554144600.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
-    &lt;td&gt;
-        &lt;p&gt;推荐: 力荐&lt;/p&gt;
-        &lt;p&gt;备注: 第一遍看化物语，没看懂，感觉叽叽喳喳的不知道在讲些什么，意识超过剧情，满屏字飞来飞去，两个人站路灯下聊半天，SHAFT那套偏镜头，独特的表达方式，初看觉得这啥啊，对话比动作多，剧情被台词淹了。
-后来静下来看第二遍，才发现这化物语是魅力所在，不是没剧情，是它不急着讲，全藏在对话的缝隙里。黑仪下手是真快，算是半路截胡了，历还没反应过来就被拿捏，直接锁死。
-班长羽川翼好可惜啊，历找她倾诉的时候，她永远在，但暗恋不成，班长是什么都懂，就是没勇敢迈出第一步，导致历还是选了黑仪。&lt;/p&gt;
     &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
     </item>
   </channel>

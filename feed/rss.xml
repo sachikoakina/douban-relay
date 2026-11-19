@@ -6,8 +6,128 @@
     <description>豆瓣公开 RSS 的增量归档：仅收录启用之后的条目，去重后保留最近若干条。</description>
     <language>zh-CN</language>
     <ttl>20</ttl>
-    <lastBuildDate>Thu, 19 Nov 2026 00:52:55 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 21:18:28 +0800</lastBuildDate>
     <atom:link href="https://sachikoakina.github.io/douban-relay/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>看过自然的力量</title>
+      <link>https://movie.douban.com/subject/26474262/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4993081318</guid>
+      <pubDate>Thu, 19 Nov 2026 21:06:53 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">看过</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/26474262/" title="Forces of Nature"&gt;
+    &lt;img alt="Forces of Nature" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2524956428.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;推荐: 还行&lt;/p&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>看过香肠</title>
+      <link>https://movie.douban.com/subject/26910847/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4993078399</guid>
+      <pubDate>Thu, 19 Nov 2026 21:02:32 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">看过</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/26910847/" title="Weenie"&gt;
+    &lt;img alt="Weenie" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2424729558.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;推荐: 还行&lt;/p&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>看过凯尔的秘密生活</title>
+      <link>https://movie.douban.com/subject/27166021/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4993071826</guid>
+      <pubDate>Thu, 19 Nov 2026 20:53:44 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">看过</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/27166021/" title="The Secret Life of Kyle"&gt;
+    &lt;img alt="The Secret Life of Kyle" src="https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2506314661.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;推荐: 推荐&lt;/p&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>看过辅助轮</title>
+      <link>https://movie.douban.com/subject/25750824/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4993069297</guid>
+      <pubDate>Thu, 19 Nov 2026 20:50:05 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">看过</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/25750824/" title="Training Wheels"&gt;
+    &lt;img alt="Training Wheels" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2903046986.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;推荐: 推荐&lt;/p&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>看过诺尔曼电视台</title>
+      <link>https://movie.douban.com/subject/26909613/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4993067549</guid>
+      <pubDate>Thu, 19 Nov 2026 20:47:37 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">看过</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/26909613/" title="Norman Television"&gt;
+    &lt;img alt="Norman Television" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2595010857.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;推荐: 推荐&lt;/p&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>看过宠物</title>
+      <link>https://movie.douban.com/subject/25750820/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4993065094</guid>
+      <pubDate>Thu, 19 Nov 2026 20:44:08 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">看过</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/25750820/" title="Puppy"&gt;
+    &lt;img alt="Puppy" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2920148982.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;推荐: 推荐&lt;/p&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>看过圣诞老人的小帮手</title>
+      <link>https://movie.douban.com/subject/30441253/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4993034100</guid>
+      <pubDate>Thu, 19 Nov 2026 19:58:34 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">看过</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/30441253/" title="Santa's Little Helpers"&gt;
+    &lt;img alt="Santa's Little Helpers" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2571502163.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;推荐: 推荐&lt;/p&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>看过忍风战队破里剑者 10年之后</title>
+      <link>https://movie.douban.com/subject/23163936/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4993026983</guid>
+      <pubDate>Thu, 19 Nov 2026 19:47:55 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">看过</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/23163936/" title="忍風戦隊ハリケンジャー 10 YEARS AFTER"&gt;
+    &lt;img alt="忍風戦隊ハリケンジャー 10 YEARS AFTER" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2007322263.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;推荐: 还行&lt;/p&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
     <item>
       <title>看过忍风战队破里剑者是也！咻咻的20周年</title>
       <link>https://movie.douban.com/subject/36140201/</link>
@@ -341,121 +461,6 @@
     &lt;img alt="时光代理人 第三季" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2934938769.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
     &lt;td&gt;
         &lt;p&gt;推荐: 还行&lt;/p&gt;
-    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
-    </item>
-    <item>
-      <title>在看大理寺日志3</title>
-      <link>https://movie.douban.com/subject/36514822/</link>
-      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4974987003</guid>
-      <pubDate>Mon, 26 Oct 2026 13:32:28 +0800</pubDate>
-      <category>movie</category>
-      <dc:creator>琴弦月初</dc:creator>
-      <category domain="douban:status">在看</category>
-      <description>&lt;table&gt;&lt;tr&gt;
-    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/36514822/" title="大理寺日志3"&gt;
-    &lt;img alt="大理寺日志3" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2936729244.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
-    &lt;td&gt;
-    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
-    </item>
-    <item>
-      <title>看过狐妖小红娘 黄风岭篇</title>
-      <link>https://movie.douban.com/subject/36994883/</link>
-      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4974944930</guid>
-      <pubDate>Mon, 26 Oct 2026 12:21:35 +0800</pubDate>
-      <category>movie</category>
-      <dc:creator>琴弦月初</dc:creator>
-      <category domain="douban:status">看过</category>
-      <description>&lt;table&gt;&lt;tr&gt;
-    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/36994883/" title="狐妖小红娘 黄风岭篇"&gt;
-    &lt;img alt="狐妖小红娘 黄风岭篇" src="https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2934059551.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
-    &lt;td&gt;
-        &lt;p&gt;推荐: 还行&lt;/p&gt;
-    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
-    </item>
-    <item>
-      <title>看过芬奇</title>
-      <link>https://movie.douban.com/subject/26897885/</link>
-      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/3758389104</guid>
-      <pubDate>Sun, 25 Oct 2026 15:39:07 +0800</pubDate>
-      <category>movie</category>
-      <dc:creator>琴弦月初</dc:creator>
-      <category domain="douban:status">看过</category>
-      <description>&lt;table&gt;&lt;tr&gt;
-    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/26897885/" title="Finch"&gt;
-    &lt;img alt="Finch" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2721066869.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
-    &lt;td&gt;
-        &lt;p&gt;推荐: 推荐&lt;/p&gt;
-    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
-    </item>
-    <item>
-      <title>读过绍宋</title>
-      <link>https://book.douban.com/subject/36955267/</link>
-      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4971538706</guid>
-      <pubDate>Thu, 22 Oct 2026 10:30:16 +0800</pubDate>
-      <category>book</category>
-      <dc:creator>琴弦月初</dc:creator>
-      <category domain="douban:status">读过</category>
-      <description>&lt;table&gt;&lt;tr&gt;
-    &lt;td width="80px"&gt;&lt;a href="https://book.douban.com/subject/36955267/" title="绍宋"&gt;
-    &lt;img alt="绍宋" src="https://img3.doubanio.com/view/subject/s/public/s34918397.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
-    &lt;td&gt;
-        &lt;p&gt;推荐: 推荐&lt;/p&gt;
-    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
-    </item>
-    <item>
-      <title>想看生化危机：爆发夜</title>
-      <link>https://movie.douban.com/subject/37068446/</link>
-      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4969486924</guid>
-      <pubDate>Mon, 19 Oct 2026 13:59:39 +0800</pubDate>
-      <category>movie</category>
-      <dc:creator>琴弦月初</dc:creator>
-      <category domain="douban:status">想看</category>
-      <description>&lt;table&gt;&lt;tr&gt;
-    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/37068446/" title="Resident Evil"&gt;
-    &lt;img alt="Resident Evil" src="https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2936442661.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
-    &lt;td&gt;
-    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
-    </item>
-    <item>
-      <title>想看哥斯拉大战金刚3：超新星之战</title>
-      <link>https://movie.douban.com/subject/36889289/</link>
-      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4969485960</guid>
-      <pubDate>Mon, 19 Oct 2026 13:57:36 +0800</pubDate>
-      <category>movie</category>
-      <dc:creator>琴弦月初</dc:creator>
-      <category domain="douban:status">想看</category>
-      <description>&lt;table&gt;&lt;tr&gt;
-    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/36889289/" title="Godzilla x Kong: Supernova"&gt;
-    &lt;img alt="Godzilla x Kong: Supernova" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2921387013.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
-    &lt;td&gt;
-    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
-    </item>
-    <item>
-      <title>想看流浪地球3(下)</title>
-      <link>https://movie.douban.com/subject/37106774/</link>
-      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4969484941</guid>
-      <pubDate>Mon, 19 Oct 2026 13:56:00 +0800</pubDate>
-      <category>movie</category>
-      <dc:creator>琴弦月初</dc:creator>
-      <category domain="douban:status">想看</category>
-      <description>&lt;table&gt;&lt;tr&gt;
-    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/37106774/" title="流浪地球3(下)"&gt;
-    &lt;img alt="流浪地球3(下)" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2915091857.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
-    &lt;td&gt;
-    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
-    </item>
-    <item>
-      <title>想看葬送的芙莉莲 第三季 黄金乡篇</title>
-      <link>https://movie.douban.com/subject/38399537/</link>
-      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4966782084</guid>
-      <pubDate>Fri, 16 Oct 2026 00:15:43 +0800</pubDate>
-      <category>movie</category>
-      <dc:creator>琴弦月初</dc:creator>
-      <category domain="douban:status">想看</category>
-      <description>&lt;table&gt;&lt;tr&gt;
-    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/38399537/" title="葬送のフリーレン 第3期【黄金郷編】"&gt;
-    &lt;img alt="葬送のフリーレン 第3期【黄金郷編】" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2931217724.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
-    &lt;td&gt;
     &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
     </item>
   </channel>

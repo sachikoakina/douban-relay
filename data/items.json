@@ -1,6 +1,102 @@
 {
  "items": [
   {
+   "key": "32d425f0da83b8028ef4",
+   "guid": "https://www.douban.com/people/201878529/interests/4993081318",
+   "cat": "movie",
+   "status": "看过",
+   "title": "看过自然的力量",
+   "link": "https://movie.douban.com/subject/26474262/",
+   "published": "2026-11-19T13:06:53Z",
+   "updated": "2026-11-19T13:06:53Z",
+   "summary": "<table><tr>\n    <td width=\"80px\"><a href=\"https://movie.douban.com/subject/26474262/\" title=\"Forces of Nature\">\n    <img alt=\"Forces of Nature\" src=\"https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2524956428.jpg\" /></a></td>\n    <td>\n        <p>推荐: 还行</p>\n    </td></tr></table>",
+   "author": "琴弦月初"
+  },
+  {
+   "key": "dfd6c5bfcec32bf17cf2",
+   "guid": "https://www.douban.com/people/201878529/interests/4993078399",
+   "cat": "movie",
+   "status": "看过",
+   "title": "看过香肠",
+   "link": "https://movie.douban.com/subject/26910847/",
+   "published": "2026-11-19T13:02:32Z",
+   "updated": "2026-11-19T13:02:32Z",
+   "summary": "<table><tr>\n    <td width=\"80px\"><a href=\"https://movie.douban.com/subject/26910847/\" title=\"Weenie\">\n    <img alt=\"Weenie\" src=\"https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2424729558.jpg\" /></a></td>\n    <td>\n        <p>推荐: 还行</p>\n    </td></tr></table>",
+   "author": "琴弦月初"
+  },
+  {
+   "key": "153673ecebea056f7f1c",
+   "guid": "https://www.douban.com/people/201878529/interests/4993071826",
+   "cat": "movie",
+   "status": "看过",
+   "title": "看过凯尔的秘密生活",
+   "link": "https://movie.douban.com/subject/27166021/",
+   "published": "2026-11-19T12:53:44Z",
+   "updated": "2026-11-19T12:53:44Z",
+   "summary": "<table><tr>\n    <td width=\"80px\"><a href=\"https://movie.douban.com/subject/27166021/\" title=\"The Secret Life of Kyle\">\n    <img alt=\"The Secret Life of Kyle\" src=\"https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2506314661.jpg\" /></a></td>\n    <td>\n        <p>推荐: 推荐</p>\n    </td></tr></table>",
+   "author": "琴弦月初"
+  },
+  {
+   "key": "879b25db5331826499b7",
+   "guid": "https://www.douban.com/people/201878529/interests/4993069297",
+   "cat": "movie",
+   "status": "看过",
+   "title": "看过辅助轮",
+   "link": "https://movie.douban.com/subject/25750824/",
+   "published": "2026-11-19T12:50:05Z",
+   "updated": "2026-11-19T12:50:05Z",
+   "summary": "<table><tr>\n    <td width=\"80px\"><a href=\"https://movie.douban.com/subject/25750824/\" title=\"Training Wheels\">\n    <img alt=\"Training Wheels\" src=\"https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2903046986.jpg\" /></a></td>\n    <td>\n        <p>推荐: 推荐</p>\n    </td></tr></table>",
+   "author": "琴弦月初"
+  },
+  {
+   "key": "e1ec64edeafc5bbb3d5c",
+   "guid": "https://www.douban.com/people/201878529/interests/4993067549",
+   "cat": "movie",
+   "status": "看过",
+   "title": "看过诺尔曼电视台",
+   "link": "https://movie.douban.com/subject/26909613/",
+   "published": "2026-11-19T12:47:37Z",
+   "updated": "2026-11-19T12:47:37Z",
+   "summary": "<table><tr>\n    <td width=\"80px\"><a href=\"https://movie.douban.com/subject/26909613/\" title=\"Norman Television\">\n    <img alt=\"Norman Television\" src=\"https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2595010857.jpg\" /></a></td>\n    <td>\n        <p>推荐: 推荐</p>\n    </td></tr></table>",
+   "author": "琴弦月初"
+  },
+  {
+   "key": "fefa70678e469acbca6a",
+   "guid": "https://www.douban.com/people/201878529/interests/4993065094",
+   "cat": "movie",
+   "status": "看过",
+   "title": "看过宠物",
+   "link": "https://movie.douban.com/subject/25750820/",
+   "published": "2026-11-19T12:44:08Z",
+   "updated": "2026-11-19T12:44:08Z",
+   "summary": "<table><tr>\n    <td width=\"80px\"><a href=\"https://movie.douban.com/subject/25750820/\" title=\"Puppy\">\n    <img alt=\"Puppy\" src=\"https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2920148982.jpg\" /></a></td>\n    <td>\n        <p>推荐: 推荐</p>\n    </td></tr></table>",
+   "author": "琴弦月初"
+  },
+  {
+   "key": "6b115c56651fdcab6237",
+   "guid": "https://www.douban.com/people/201878529/interests/4993034100",
+   "cat": "movie",
+   "status": "看过",
+   "title": "看过圣诞老人的小帮手",
+   "link": "https://movie.douban.com/subject/30441253/",
+   "published": "2026-11-19T11:58:34Z",
+   "updated": "2026-11-19T11:58:34Z",
+   "summary": "<table><tr>\n    <td width=\"80px\"><a href=\"https://movie.douban.com/subject/30441253/\" title=\"Santa's Little Helpers\">\n    <img alt=\"Santa's Little Helpers\" src=\"https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2571502163.jpg\" /></a></td>\n    <td>\n        <p>推荐: 推荐</p>\n    </td></tr></table>",
+   "author": "琴弦月初"
+  },
+  {
+   "key": "00a0742cafdedce35ca8",
+   "guid": "https://www.douban.com/people/201878529/interests/4993026983",
+   "cat": "movie",
+   "status": "看过",
+   "title": "看过忍风战队破里剑者 10年之后",
+   "link": "https://movie.douban.com/subject/23163936/",
+   "published": "2026-11-19T11:47:55Z",
+   "updated": "2026-11-19T11:47:55Z",
+   "summary": "<table><tr>\n    <td width=\"80px\"><a href=\"https://movie.douban.com/subject/23163936/\" title=\"忍風戦隊ハリケンジャー 10 YEARS AFTER\">\n    <img alt=\"忍風戦隊ハリケンジャー 10 YEARS AFTER\" src=\"https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2007322263.jpg\" /></a></td>\n    <td>\n        <p>推荐: 还行</p>\n    </td></tr></table>",
+   "author": "琴弦月初"
+  },
+  {
    "key": "923b35a6375675654b96",
    "guid": "https://www.douban.com/people/201878529/interests/4992247091",
    "cat": "movie",
