@@ -6,8 +6,60 @@
     <description>豆瓣公开 RSS 的增量归档：仅收录启用之后的条目，去重后保留最近若干条。</description>
     <language>zh-CN</language>
     <ttl>20</ttl>
-    <lastBuildDate>Thu, 19 Nov 2026 21:18:28 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 05:40:05 +0800</lastBuildDate>
     <atom:link href="https://sachikoakina.github.io/douban-relay/rss-30.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>看过小黄人童子军</title>
+      <link>https://movie.douban.com/subject/34962387/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4993201527</guid>
+      <pubDate>Thu, 19 Nov 2026 23:29:27 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">看过</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/34962387/" title="Minion Scouts"&gt;
+    &lt;img alt="Minion Scouts" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2595008999.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;推荐: 推荐&lt;/p&gt;
+        &lt;p&gt;备注: 小黄人童子军炸水坝，最后还生猛的驯服了熊&lt;/p&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>看过超级马力欧银河大电影</title>
+      <link>https://movie.douban.com/subject/36806351/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4993144051</guid>
+      <pubDate>Thu, 19 Nov 2026 22:24:17 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">看过</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/36806351/" title="The Super Mario Galaxy Movie"&gt;
+    &lt;img alt="The Super Mario Galaxy Movie" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2930472372.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;推荐: 推荐&lt;/p&gt;
+        &lt;p&gt;备注: 舞台从蘑菇王国拉到银河，视觉是真舍得砸钱——重力星球、熔岩关、8位像素突然切3D，耀西破壳、星际火狐串场，老玩家看彩蛋能笑出声。
+但剧情还是老一套。酷霸Jr.绑罗莎塔、兄弟俩跑图打怪、碧姬和罗莎塔突然是失散姐妹，剧情全在“下一个星球打一场”，角色没成长，酷霸父子那点悔意刚冒头就被反水秒了，姐妹重逢也没铺垫。
+总结来说就是粉丝特供的银河派对，普通观众看就是彩蛋PPT。&lt;/p&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>看过怪物事变</title>
+      <link>https://movie.douban.com/subject/34936377/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/3062942282</guid>
+      <pubDate>Thu, 19 Nov 2026 22:17:33 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">看过</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/34936377/" title="怪物事変"&gt;
+    &lt;img alt="怪物事変" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2612327132.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;推荐: 还行&lt;/p&gt;
+        &lt;p&gt;备注: 画风看着还行就看完了。故事大概是狸猫隐神开了间事务所，带着夏羽、织、晶、野火丸几个半妖小孩接委托，靠单元回慢慢推主线。夏羽是尸鬼混血，没痛觉、能再生，前期麻木得像块石头，被村里当怪物养大，这种三无性格还挺好玩；织傲娇带刺，晶那真是画女硬说男，野火丸狐狸嘴欠。
+前几集节奏温吞，织妈那条线一出来直接恶心：被叔叔当实验品逼着和各种东西杂交，生出一堆喊"织，我爱你"的畸形弟妹，冲击力拉满但也膈应人。更离谱的是晶的哥哥又来一遍同样的套路——作者是不是对"性压榨"这个母题情有独钟啊，重复用真的审美疲劳，纯恶心了。
+唯一让我觉得有意思的是狐狸绀和夏羽的关系。俩人完全不知道爱是什么，凑不出一个心眼子。但照现在的发展，狐狸绀迟早会背叛夏羽。整体还算可以，但作者那点恶趣味真的该收一收了。&lt;/p&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
     <item>
       <title>看过自然的力量</title>
       <link>https://movie.douban.com/subject/26474262/</link>
@@ -417,50 +469,6 @@
     &lt;td width="80px"&gt;&lt;a href="https://book.douban.com/subject/5254384/" title="日常 5"&gt;
     &lt;img alt="日常 5" src="https://img3.doubanio.com/view/subject/s/public/s4461549.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
     &lt;td&gt;
-    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
-    </item>
-    <item>
-      <title>想读九井谅子涂鸦集：白日梦时间</title>
-      <link>https://book.douban.com/subject/36897268/</link>
-      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4975197359</guid>
-      <pubDate>Mon, 26 Oct 2026 19:36:33 +0800</pubDate>
-      <category>book</category>
-      <dc:creator>琴弦月初</dc:creator>
-      <category domain="douban:status">想读</category>
-      <description>&lt;table&gt;&lt;tr&gt;
-    &lt;td width="80px"&gt;&lt;a href="https://book.douban.com/subject/36897268/" title="九井谅子涂鸦集：白日梦时间"&gt;
-    &lt;img alt="九井谅子涂鸦集：白日梦时间" src="https://img9.doubanio.com/view/subject/s/public/s34893846.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
-    &lt;td&gt;
-    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
-    </item>
-    <item>
-      <title>读过進擊的巨人 26</title>
-      <link>https://book.douban.com/subject/30276785/</link>
-      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4975197232</guid>
-      <pubDate>Mon, 26 Oct 2026 19:36:20 +0800</pubDate>
-      <category>book</category>
-      <dc:creator>琴弦月初</dc:creator>
-      <category domain="douban:status">读过</category>
-      <description>&lt;table&gt;&lt;tr&gt;
-    &lt;td width="80px"&gt;&lt;a href="https://book.douban.com/subject/30276785/" title="進擊的巨人 26"&gt;
-    &lt;img alt="進擊的巨人 26" src="https://img3.doubanio.com/view/subject/s/public/s29924192.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
-    &lt;td&gt;
-        &lt;p&gt;推荐: 推荐&lt;/p&gt;
-    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
-    </item>
-    <item>
-      <title>看过时光代理人 第三季</title>
-      <link>https://movie.douban.com/subject/37192944/</link>
-      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4828629116</guid>
-      <pubDate>Mon, 26 Oct 2026 13:33:49 +0800</pubDate>
-      <category>movie</category>
-      <dc:creator>琴弦月初</dc:creator>
-      <category domain="douban:status">看过</category>
-      <description>&lt;table&gt;&lt;tr&gt;
-    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/37192944/" title="时光代理人 第三季"&gt;
-    &lt;img alt="时光代理人 第三季" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2934938769.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
-    &lt;td&gt;
-        &lt;p&gt;推荐: 还行&lt;/p&gt;
     &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
     </item>
   </channel>
