@@ -6,8 +6,22 @@
     <description>豆瓣公开 RSS 的增量归档：仅收录启用之后的条目，去重后保留最近若干条。</description>
     <language>zh-CN</language>
     <ttl>20</ttl>
-    <lastBuildDate>Sat, 21 Nov 2026 23:36:46 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 05:06:34 +0800</lastBuildDate>
     <atom:link href="https://sachikoakina.github.io/douban-relay/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>想看横道世之介</title>
+      <link>https://movie.douban.com/subject/10484041/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4994806271</guid>
+      <pubDate>Sun, 22 Nov 2026 00:21:35 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">想看</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/10484041/" title="横道世之介"&gt;
+    &lt;img alt="横道世之介" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2021127692.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
     <item>
       <title>看过名侦探柯南：大怪兽哥美拉VS假面超人</title>
       <link>https://movie.douban.com/subject/34937909/</link>
@@ -458,20 +472,6 @@
       <description>&lt;table&gt;&lt;tr&gt;
     &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/25798131/" title="John Wick"&gt;
     &lt;img alt="John Wick" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2936502228.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
-    &lt;td&gt;
-    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
-    </item>
-    <item>
-      <title>想看淫兽教师真人版</title>
-      <link>https://movie.douban.com/subject/5091716/</link>
-      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4976639718</guid>
-      <pubDate>Wed, 28 Oct 2026 19:49:21 +0800</pubDate>
-      <category>movie</category>
-      <dc:creator>琴弦月初</dc:creator>
-      <category domain="douban:status">想看</category>
-      <description>&lt;table&gt;&lt;tr&gt;
-    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/5091716/" title="淫獣教師 実写版"&gt;
-    &lt;img alt="淫獣教師 実写版" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2188137014.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
     &lt;td&gt;
     &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
     </item>

@@ -6,8 +6,22 @@
     <description>豆瓣公开 RSS 的增量归档：仅收录启用之后的条目，去重后保留最近若干条。</description>
     <language>zh-CN</language>
     <ttl>20</ttl>
-    <lastBuildDate>Sat, 21 Nov 2026 23:36:46 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 05:06:34 +0800</lastBuildDate>
     <atom:link href="https://sachikoakina.github.io/douban-relay/rss-15.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>想看横道世之介</title>
+      <link>https://movie.douban.com/subject/10484041/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4994806271</guid>
+      <pubDate>Sun, 22 Nov 2026 00:21:35 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">想看</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/10484041/" title="横道世之介"&gt;
+    &lt;img alt="横道世之介" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2021127692.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
     <item>
       <title>看过名侦探柯南：大怪兽哥美拉VS假面超人</title>
       <link>https://movie.douban.com/subject/34937909/</link>
@@ -227,22 +241,6 @@
     &lt;img alt="忍風戦隊ハリケンジャー" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2218867728.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
     &lt;td&gt;
         &lt;p&gt;推荐: 力荐&lt;/p&gt;
-    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
-    </item>
-    <item>
-      <title>看过驯龙高手：归家</title>
-      <link>https://movie.douban.com/subject/34857400/</link>
-      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4990561016</guid>
-      <pubDate>Mon, 16 Nov 2026 16:10:27 +0800</pubDate>
-      <category>movie</category>
-      <dc:creator>琴弦月初</dc:creator>
-      <category domain="douban:status">看过</category>
-      <description>&lt;table&gt;&lt;tr&gt;
-    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/34857400/" title="How to Train Your Dragon: Homecoming"&gt;
-    &lt;img alt="How to Train Your Dragon: Homecoming" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2571521788.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
-    &lt;td&gt;
-        &lt;p&gt;推荐: 推荐&lt;/p&gt;
-        &lt;p&gt;备注: 小嗝嗝当爸了，孩子没见过龙，只从旧书里读到“怪物”。他干脆搭了台戏，把当年怎么认识没牙仔、怎么和龙和解，演给全村看。与此同时，没牙仔也在远方想念他，小龙崽偷跑去了伯克。重头在于“怎么把记忆传下去”。虽然小嗝嗝与夜煞不在一起了，但情谊还在；双方惦记本身就足够了，看后面，人与龙的故事还在延续。&lt;/p&gt;
     &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
     </item>
   </channel>

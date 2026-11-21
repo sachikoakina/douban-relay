@@ -1,6 +1,18 @@
 {
  "items": [
   {
+   "key": "aa6d1d558fe134055859",
+   "guid": "https://www.douban.com/people/201878529/interests/4994806271",
+   "cat": "movie",
+   "status": "想看",
+   "title": "想看横道世之介",
+   "link": "https://movie.douban.com/subject/10484041/",
+   "published": "2026-11-21T16:21:35Z",
+   "updated": "2026-11-21T16:21:35Z",
+   "summary": "<table><tr>\n    <td width=\"80px\"><a href=\"https://movie.douban.com/subject/10484041/\" title=\"横道世之介\">\n    <img alt=\"横道世之介\" src=\"https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2021127692.jpg\" /></a></td>\n    <td>\n    </td></tr></table>",
+   "author": "琴弦月初"
+  },
+  {
    "key": "0eecea75c51f6b38e3a5",
    "guid": "https://www.douban.com/people/201878529/interests/4994406576",
    "cat": "movie",
