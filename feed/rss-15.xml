@@ -6,8 +6,26 @@
     <description>豆瓣公开 RSS 的增量归档：仅收录启用之后的条目，去重后保留最近若干条。</description>
     <language>zh-CN</language>
     <ttl>20</ttl>
-    <lastBuildDate>Fri, 20 Nov 2026 05:40:05 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 23:36:46 +0800</lastBuildDate>
     <atom:link href="https://sachikoakina.github.io/douban-relay/rss-15.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>看过名侦探柯南：大怪兽哥美拉VS假面超人</title>
+      <link>https://movie.douban.com/subject/34937909/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4994406576</guid>
+      <pubDate>Sat, 21 Nov 2026 17:34:28 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">看过</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/34937909/" title="名探偵コナン 大怪獣ゴメラVS仮面ヤイバー"&gt;
+    &lt;img alt="名探偵コナン 大怪獣ゴメラVS仮面ヤイバー" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2579700044.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;推荐: 还行&lt;/p&gt;
+        &lt;p&gt;备注: TV原创特别篇（TV965–968 / 拆分版1022–1025，序·破·急·结），大仓崇裕编剧，山本泰一郎执导。
+主要看点在于彩蛋：哥美拉neta哥斯拉，假面超人neta假面骑士，和叶狂热迷妹，平次被迫演戏累趴桌，灰原自嘲"从搭档降格跑腿妹"。最后和叶小兰拆炸弹那段，明显致敬《引爆摩天楼》新兰隔墙剪蓝线，换成平和手机指导。
+本质是柯南×特摄的联动恶搞，不算是正经剧场版。整体算2020年柯南原创里排面最豪华的一档。对于特摄厨和平和党友好，推理党别较真就行。整体上达到"新年特别篇"的水准了，值得一看。&lt;/p&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
     <item>
       <title>看过小黄人童子军</title>
       <link>https://movie.douban.com/subject/34962387/</link>
@@ -225,22 +243,6 @@
     &lt;td&gt;
         &lt;p&gt;推荐: 推荐&lt;/p&gt;
         &lt;p&gt;备注: 小嗝嗝当爸了，孩子没见过龙，只从旧书里读到“怪物”。他干脆搭了台戏，把当年怎么认识没牙仔、怎么和龙和解，演给全村看。与此同时，没牙仔也在远方想念他，小龙崽偷跑去了伯克。重头在于“怎么把记忆传下去”。虽然小嗝嗝与夜煞不在一起了，但情谊还在；双方惦记本身就足够了，看后面，人与龙的故事还在延续。&lt;/p&gt;
-    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
-    </item>
-    <item>
-      <title>看过水漫金山</title>
-      <link>https://movie.douban.com/subject/10561951/</link>
-      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4987801073</guid>
-      <pubDate>Thu, 12 Nov 2026 23:33:36 +0800</pubDate>
-      <category>movie</category>
-      <dc:creator>琴弦月初</dc:creator>
-      <category domain="douban:status">看过</category>
-      <description>&lt;table&gt;&lt;tr&gt;
-    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/10561951/" title="水漫金山"&gt;
-    &lt;img alt="水漫金山" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2552084978.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
-    &lt;td&gt;
-        &lt;p&gt;推荐: 推荐&lt;/p&gt;
-        &lt;p&gt;备注: 动画版白娘子，水漫金山那几集现在还有印象，画风很传统但讲得认真。童年对这段爱情最早的印象来源之一。&lt;/p&gt;
     &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
     </item>
   </channel>
