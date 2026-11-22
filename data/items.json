@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "key": "03f0c0be9066f071a5ca",
+   "guid": "https://www.douban.com/people/201878529/interests/4994945296",
+   "cat": "movie",
+   "status": "看过",
+   "title": "看过两京十五日",
+   "link": "https://movie.douban.com/subject/35235320/",
+   "published": "2026-11-22T00:39:19Z",
+   "updated": "2026-11-22T00:39:19Z",
+   "summary": "<table><tr>\n    <td width=\"80px\"><a href=\"https://movie.douban.com/subject/35235320/\" title=\"两京十五日\">\n    <img alt=\"两京十五日\" src=\"https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2937593221.jpg\" /></a></td>\n    <td>\n        <p>推荐: 推荐</p>\n        <p>备注: 以为是boss直聘，结果是对抗路相遇，朱瞻基和吴定缘的相遇属实没料到，大结果×大后果√</p>\n    </td></tr></table>",
+   "author": "琴弦月初"
+  },
+  {
+   "key": "23b28113ecf2c791ea6e",
+   "guid": "https://www.douban.com/people/201878529/interests/2877488845",
+   "cat": "movie",
+   "status": "看过",
+   "title": "看过约定的梦幻岛",
+   "link": "https://movie.douban.com/subject/30206430/",
+   "published": "2026-11-22T00:29:33Z",
+   "updated": "2026-11-22T00:29:33Z",
+   "summary": "<table><tr>\n    <td width=\"80px\"><a href=\"https://movie.douban.com/subject/30206430/\" title=\"約束のネバーランド\">\n    <img alt=\"約束のネバーランド\" src=\"https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2602324326.jpg\" /></a></td>\n    <td>\n        <p>推荐: 推荐</p>\n    </td></tr></table>",
+   "author": "琴弦月初"
+  },
+  {
    "key": "aa6d1d558fe134055859",
    "guid": "https://www.douban.com/people/201878529/interests/4994806271",
    "cat": "movie",

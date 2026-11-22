@@ -6,8 +6,39 @@
     <description>豆瓣公开 RSS 的增量归档：仅收录启用之后的条目，去重后保留最近若干条。</description>
     <language>zh-CN</language>
     <ttl>20</ttl>
-    <lastBuildDate>Sun, 22 Nov 2026 05:06:34 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 09:22:17 +0800</lastBuildDate>
     <atom:link href="https://sachikoakina.github.io/douban-relay/rss-15.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>看过两京十五日</title>
+      <link>https://movie.douban.com/subject/35235320/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4994945296</guid>
+      <pubDate>Sun, 22 Nov 2026 08:39:19 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">看过</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/35235320/" title="两京十五日"&gt;
+    &lt;img alt="两京十五日" src="https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2937593221.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;推荐: 推荐&lt;/p&gt;
+        &lt;p&gt;备注: 以为是boss直聘，结果是对抗路相遇，朱瞻基和吴定缘的相遇属实没料到，大结果×大后果√&lt;/p&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>看过约定的梦幻岛</title>
+      <link>https://movie.douban.com/subject/30206430/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/2877488845</guid>
+      <pubDate>Sun, 22 Nov 2026 08:29:33 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">看过</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/30206430/" title="約束のネバーランド"&gt;
+    &lt;img alt="約束のネバーランド" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2602324326.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;推荐: 推荐&lt;/p&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
     <item>
       <title>想看横道世之介</title>
       <link>https://movie.douban.com/subject/10484041/</link>
@@ -210,37 +241,6 @@
     &lt;img alt="忍風戦隊ハリケンジャー 10 YEARS AFTER" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2007322263.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
     &lt;td&gt;
         &lt;p&gt;推荐: 还行&lt;/p&gt;
-    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
-    </item>
-    <item>
-      <title>看过忍风战队破里剑者是也！咻咻的20周年</title>
-      <link>https://movie.douban.com/subject/36140201/</link>
-      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4992247091</guid>
-      <pubDate>Wed, 18 Nov 2026 18:59:16 +0800</pubDate>
-      <category>movie</category>
-      <dc:creator>琴弦月初</dc:creator>
-      <category domain="douban:status">看过</category>
-      <description>&lt;table&gt;&lt;tr&gt;
-    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/36140201/" title="忍風戦隊ハリケンジャーでござる! シュシュッと20th Anniversary"&gt;
-    &lt;img alt="忍風戦隊ハリケンジャーでござる! シュシュッと20th Anniversary" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2882689915.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
-    &lt;td&gt;
-        &lt;p&gt;推荐: 还行&lt;/p&gt;
-        &lt;p&gt;备注: 20年后的剧场版能出已经实属难得了，再加上原班人马出演，盐谷瞬、长泽奈央、山本康平、白川裕二郎、姜雄——全员回来，一人分饰现代和江户先祖两角。七海（长泽奈央）真的没什么变化，状态好得离谱；其他几位明显老了，动作戏还是亲自上，但这些已经完全不能说其他的了，已经不能奢望太多了。情怀分拉满，其他就一般般了。&lt;/p&gt;
-    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
-    </item>
-    <item>
-      <title>看过忍风战队破里剑者</title>
-      <link>https://movie.douban.com/subject/3828055/</link>
-      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4991161863</guid>
-      <pubDate>Tue, 17 Nov 2026 11:43:12 +0800</pubDate>
-      <category>movie</category>
-      <dc:creator>琴弦月初</dc:creator>
-      <category domain="douban:status">看过</category>
-      <description>&lt;table&gt;&lt;tr&gt;
-    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/3828055/" title="忍風戦隊ハリケンジャー"&gt;
-    &lt;img alt="忍風戦隊ハリケンジャー" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2218867728.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
-    &lt;td&gt;
-        &lt;p&gt;推荐: 力荐&lt;/p&gt;
     &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
     </item>
   </channel>
