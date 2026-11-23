@@ -6,8 +6,78 @@
     <description>豆瓣公开 RSS 的增量归档：仅收录启用之后的条目，去重后保留最近若干条。</description>
     <language>zh-CN</language>
     <ttl>20</ttl>
-    <lastBuildDate>Sun, 22 Nov 2026 09:22:17 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 06:54:51 +0800</lastBuildDate>
     <atom:link href="https://sachikoakina.github.io/douban-relay/rss-15.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>在看致不灭的你 第三季</title>
+      <link>https://movie.douban.com/subject/36309067/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/3754189381</guid>
+      <pubDate>Mon, 23 Nov 2026 22:21:16 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">在看</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/36309067/" title="不滅のあなたへ Season 3"&gt;
+    &lt;img alt="不滅のあなたへ Season 3" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2920467312.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>在看AD特警</title>
+      <link>https://movie.douban.com/subject/3233127/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4040831267</guid>
+      <pubDate>Mon, 23 Nov 2026 22:21:03 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">在看</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/3233127/" title="AD.POLICE"&gt;
+    &lt;img alt="AD.POLICE" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2637463066.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>在看梦境制片厂</title>
+      <link>https://movie.douban.com/subject/36937391/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4901661406</guid>
+      <pubDate>Mon, 23 Nov 2026 22:20:51 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">在看</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/36937391/" title="Dream Productions"&gt;
+    &lt;img alt="Dream Productions" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2915568509.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>在看小城日常</title>
+      <link>https://movie.douban.com/subject/37054059/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4901661592</guid>
+      <pubDate>Mon, 23 Nov 2026 22:20:42 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">在看</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/37054059/" title="CITY THE ANIMATION"&gt;
+    &lt;img alt="CITY THE ANIMATION" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2923030500.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>在看赛博朋克：边缘行者 第二季</title>
+      <link>https://movie.douban.com/subject/37421775/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4955320020</guid>
+      <pubDate>Mon, 23 Nov 2026 22:20:35 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">在看</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/37421775/" title="Cyberpunk: Edgerunners Season 2"&gt;
+    &lt;img alt="Cyberpunk: Edgerunners Season 2" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2937474557.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
     <item>
       <title>看过两京十五日</title>
       <link>https://movie.douban.com/subject/35235320/</link>
@@ -166,81 +236,6 @@
     &lt;img alt="The Secret Life of Kyle" src="https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2506314661.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
     &lt;td&gt;
         &lt;p&gt;推荐: 推荐&lt;/p&gt;
-    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
-    </item>
-    <item>
-      <title>看过辅助轮</title>
-      <link>https://movie.douban.com/subject/25750824/</link>
-      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4993069297</guid>
-      <pubDate>Thu, 19 Nov 2026 20:50:05 +0800</pubDate>
-      <category>movie</category>
-      <dc:creator>琴弦月初</dc:creator>
-      <category domain="douban:status">看过</category>
-      <description>&lt;table&gt;&lt;tr&gt;
-    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/25750824/" title="Training Wheels"&gt;
-    &lt;img alt="Training Wheels" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2903046986.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
-    &lt;td&gt;
-        &lt;p&gt;推荐: 推荐&lt;/p&gt;
-    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
-    </item>
-    <item>
-      <title>看过诺尔曼电视台</title>
-      <link>https://movie.douban.com/subject/26909613/</link>
-      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4993067549</guid>
-      <pubDate>Thu, 19 Nov 2026 20:47:37 +0800</pubDate>
-      <category>movie</category>
-      <dc:creator>琴弦月初</dc:creator>
-      <category domain="douban:status">看过</category>
-      <description>&lt;table&gt;&lt;tr&gt;
-    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/26909613/" title="Norman Television"&gt;
-    &lt;img alt="Norman Television" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2595010857.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
-    &lt;td&gt;
-        &lt;p&gt;推荐: 推荐&lt;/p&gt;
-    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
-    </item>
-    <item>
-      <title>看过宠物</title>
-      <link>https://movie.douban.com/subject/25750820/</link>
-      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4993065094</guid>
-      <pubDate>Thu, 19 Nov 2026 20:44:08 +0800</pubDate>
-      <category>movie</category>
-      <dc:creator>琴弦月初</dc:creator>
-      <category domain="douban:status">看过</category>
-      <description>&lt;table&gt;&lt;tr&gt;
-    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/25750820/" title="Puppy"&gt;
-    &lt;img alt="Puppy" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2920148982.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
-    &lt;td&gt;
-        &lt;p&gt;推荐: 推荐&lt;/p&gt;
-    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
-    </item>
-    <item>
-      <title>看过圣诞老人的小帮手</title>
-      <link>https://movie.douban.com/subject/30441253/</link>
-      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4993034100</guid>
-      <pubDate>Thu, 19 Nov 2026 19:58:34 +0800</pubDate>
-      <category>movie</category>
-      <dc:creator>琴弦月初</dc:creator>
-      <category domain="douban:status">看过</category>
-      <description>&lt;table&gt;&lt;tr&gt;
-    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/30441253/" title="Santa's Little Helpers"&gt;
-    &lt;img alt="Santa's Little Helpers" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2571502163.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
-    &lt;td&gt;
-        &lt;p&gt;推荐: 推荐&lt;/p&gt;
-    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
-    </item>
-    <item>
-      <title>看过忍风战队破里剑者 10年之后</title>
-      <link>https://movie.douban.com/subject/23163936/</link>
-      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4993026983</guid>
-      <pubDate>Thu, 19 Nov 2026 19:47:55 +0800</pubDate>
-      <category>movie</category>
-      <dc:creator>琴弦月初</dc:creator>
-      <category domain="douban:status">看过</category>
-      <description>&lt;table&gt;&lt;tr&gt;
-    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/23163936/" title="忍風戦隊ハリケンジャー 10 YEARS AFTER"&gt;
-    &lt;img alt="忍風戦隊ハリケンジャー 10 YEARS AFTER" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2007322263.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
-    &lt;td&gt;
-        &lt;p&gt;推荐: 还行&lt;/p&gt;
     &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
     </item>
   </channel>

@@ -6,8 +6,78 @@
     <description>豆瓣公开 RSS 的增量归档：仅收录启用之后的条目，去重后保留最近若干条。</description>
     <language>zh-CN</language>
     <ttl>20</ttl>
-    <lastBuildDate>Sun, 22 Nov 2026 09:22:17 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 06:54:51 +0800</lastBuildDate>
     <atom:link href="https://sachikoakina.github.io/douban-relay/rss-30.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>在看致不灭的你 第三季</title>
+      <link>https://movie.douban.com/subject/36309067/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/3754189381</guid>
+      <pubDate>Mon, 23 Nov 2026 22:21:16 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">在看</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/36309067/" title="不滅のあなたへ Season 3"&gt;
+    &lt;img alt="不滅のあなたへ Season 3" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2920467312.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>在看AD特警</title>
+      <link>https://movie.douban.com/subject/3233127/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4040831267</guid>
+      <pubDate>Mon, 23 Nov 2026 22:21:03 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">在看</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/3233127/" title="AD.POLICE"&gt;
+    &lt;img alt="AD.POLICE" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2637463066.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>在看梦境制片厂</title>
+      <link>https://movie.douban.com/subject/36937391/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4901661406</guid>
+      <pubDate>Mon, 23 Nov 2026 22:20:51 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">在看</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/36937391/" title="Dream Productions"&gt;
+    &lt;img alt="Dream Productions" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2915568509.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>在看小城日常</title>
+      <link>https://movie.douban.com/subject/37054059/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4901661592</guid>
+      <pubDate>Mon, 23 Nov 2026 22:20:42 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">在看</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/37054059/" title="CITY THE ANIMATION"&gt;
+    &lt;img alt="CITY THE ANIMATION" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2923030500.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>在看赛博朋克：边缘行者 第二季</title>
+      <link>https://movie.douban.com/subject/37421775/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4955320020</guid>
+      <pubDate>Mon, 23 Nov 2026 22:20:35 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">在看</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/37421775/" title="Cyberpunk: Edgerunners Season 2"&gt;
+    &lt;img alt="Cyberpunk: Edgerunners Season 2" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2937474557.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
     <item>
       <title>看过两京十五日</title>
       <link>https://movie.douban.com/subject/35235320/</link>
@@ -395,87 +465,6 @@
     &lt;img alt="Project Hail Mary" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2931370692.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
     &lt;td&gt;
         &lt;p&gt;推荐: 推荐&lt;/p&gt;
-    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
-    </item>
-    <item>
-      <title>看过因果报应</title>
-      <link>https://movie.douban.com/subject/36934908/</link>
-      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4979437292</guid>
-      <pubDate>Sun, 01 Nov 2026 17:33:02 +0800</pubDate>
-      <category>movie</category>
-      <dc:creator>琴弦月初</dc:creator>
-      <category domain="douban:status">看过</category>
-      <description>&lt;table&gt;&lt;tr&gt;
-    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/36934908/" title="Maharaja"&gt;
-    &lt;img alt="Maharaja" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2915350868.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
-    &lt;td&gt;
-        &lt;p&gt;推荐: 推荐&lt;/p&gt;
-    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
-    </item>
-    <item>
-      <title>看过蜘蛛侠：崭新之日</title>
-      <link>https://movie.douban.com/subject/36246195/</link>
-      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/3754374049</guid>
-      <pubDate>Sun, 01 Nov 2026 12:57:53 +0800</pubDate>
-      <category>movie</category>
-      <dc:creator>琴弦月初</dc:creator>
-      <category domain="douban:status">看过</category>
-      <description>&lt;table&gt;&lt;tr&gt;
-    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/36246195/" title="Spider-Man: Brand New Day"&gt;
-    &lt;img alt="Spider-Man: Brand New Day" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2934276912.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
-    &lt;td&gt;
-        &lt;p&gt;推荐: 推荐&lt;/p&gt;
-    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
-    </item>
-    <item>
-      <title>看过玩具总动员5</title>
-      <link>https://movie.douban.com/subject/36238849/</link>
-      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/3754189534</guid>
-      <pubDate>Sun, 01 Nov 2026 11:40:43 +0800</pubDate>
-      <category>movie</category>
-      <dc:creator>琴弦月初</dc:creator>
-      <category domain="douban:status">看过</category>
-      <description>&lt;table&gt;&lt;tr&gt;
-    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/36238849/" title="Toy Story 5"&gt;
-    &lt;img alt="Toy Story 5" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2933391462.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
-    &lt;td&gt;
-        &lt;p&gt;推荐: 推荐&lt;/p&gt;
-        &lt;p&gt;备注: 巴斯和翠丝这回算是配上了，老玩具终于有个交代。
-主题挺贴合时代的，现在孩子眼里，平板手机比牛仔和太空人好玩。电子屏一亮，塑料玩具全靠边站，这个冲击拍出来，立意比单纯怀旧强。
-就是场合切得太快。上一秒还在讨论被冷落，下一秒已经换战场，情绪没站稳就赶着往下走。还有巴斯光年这个老款不会飞，笑死我了。
-不过想想第一部已经是三十多年前的事了，能再看到这群老家伙聚一块儿，已经算难得。这下总不该还有第六部了吧？&lt;/p&gt;
-    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
-    </item>
-    <item>
-      <title>在看怪奇物语 第一季</title>
-      <link>https://movie.douban.com/subject/26359270/</link>
-      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4979157734</guid>
-      <pubDate>Sun, 01 Nov 2026 10:12:14 +0800</pubDate>
-      <category>movie</category>
-      <dc:creator>琴弦月初</dc:creator>
-      <category domain="douban:status">在看</category>
-      <description>&lt;table&gt;&lt;tr&gt;
-    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/26359270/" title="Stranger Things"&gt;
-    &lt;img alt="Stranger Things" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2364206200.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
-    &lt;td&gt;
-    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
-    </item>
-    <item>
-      <title>看过化物语</title>
-      <link>https://movie.douban.com/subject/3893384/</link>
-      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4978498882</guid>
-      <pubDate>Sat, 31 Oct 2026 13:35:14 +0800</pubDate>
-      <category>movie</category>
-      <dc:creator>琴弦月初</dc:creator>
-      <category domain="douban:status">看过</category>
-      <description>&lt;table&gt;&lt;tr&gt;
-    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/3893384/" title="化物語"&gt;
-    &lt;img alt="化物語" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2554144600.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
-    &lt;td&gt;
-        &lt;p&gt;推荐: 力荐&lt;/p&gt;
-        &lt;p&gt;备注: 第一遍看化物语，没看懂，感觉叽叽喳喳的不知道在讲些什么，意识超过剧情，满屏字飞来飞去，两个人站路灯下聊半天，SHAFT那套偏镜头，独特的表达方式，初看觉得这啥啊，对话比动作多，剧情被台词淹了。
-后来静下来看第二遍，才发现这化物语是魅力所在，不是没剧情，是它不急着讲，全藏在对话的缝隙里。黑仪下手是真快，算是半路截胡了，历还没反应过来就被拿捏，直接锁死。
-班长羽川翼好可惜啊，历找她倾诉的时候，她永远在，但暗恋不成，班长是什么都懂，就是没勇敢迈出第一步，导致历还是选了黑仪。&lt;/p&gt;
     &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
     </item>
   </channel>
