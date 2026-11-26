@@ -1,6 +1,18 @@
 {
  "items": [
   {
+   "key": "3007b54c73363cb8fd88",
+   "guid": "https://www.douban.com/people/201878529/interests/3754385815",
+   "cat": "movie",
+   "status": "看过",
+   "title": "看过约定的梦幻岛 第二季",
+   "link": "https://movie.douban.com/subject/33387151/",
+   "published": "2026-11-26T09:31:56Z",
+   "updated": "2026-11-26T09:31:56Z",
+   "summary": "<table><tr>\n    <td width=\"80px\"><a href=\"https://movie.douban.com/subject/33387151/\" title=\"約束のネバーランド Season 2\">\n    <img alt=\"約束のネバーランド Season 2\" src=\"https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2919211057.jpg\" /></a></td>\n    <td>\n        <p>推荐: 较差</p>\n    </td></tr></table>",
+   "author": "琴弦月初"
+  },
+  {
    "key": "6087623e39c31760e80c",
    "guid": "https://www.douban.com/people/201878529/interests/3754189381",
    "cat": "movie",

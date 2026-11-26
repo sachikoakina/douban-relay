@@ -6,8 +6,23 @@
     <description>豆瓣公开 RSS 的增量归档：仅收录启用之后的条目，去重后保留最近若干条。</description>
     <language>zh-CN</language>
     <ttl>20</ttl>
-    <lastBuildDate>Tue, 24 Nov 2026 06:54:51 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 21:27:58 +0800</lastBuildDate>
     <atom:link href="https://sachikoakina.github.io/douban-relay/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>看过约定的梦幻岛 第二季</title>
+      <link>https://movie.douban.com/subject/33387151/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/3754385815</guid>
+      <pubDate>Thu, 26 Nov 2026 17:31:56 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">看过</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/33387151/" title="約束のネバーランド Season 2"&gt;
+    &lt;img alt="約束のネバーランド Season 2" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2919211057.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;推荐: 较差&lt;/p&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
     <item>
       <title>在看致不灭的你 第三季</title>
       <link>https://movie.douban.com/subject/36309067/</link>
@@ -450,21 +465,6 @@
     &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/37067150/" title="Follemente"&gt;
     &lt;img alt="Follemente" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2924636647.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
     &lt;td&gt;
-    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
-    </item>
-    <item>
-      <title>看过挽救计划</title>
-      <link>https://movie.douban.com/subject/35010610/</link>
-      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4981034722</guid>
-      <pubDate>Tue, 03 Nov 2026 18:16:35 +0800</pubDate>
-      <category>movie</category>
-      <dc:creator>琴弦月初</dc:creator>
-      <category domain="douban:status">看过</category>
-      <description>&lt;table&gt;&lt;tr&gt;
-    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/35010610/" title="Project Hail Mary"&gt;
-    &lt;img alt="Project Hail Mary" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2931370692.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
-    &lt;td&gt;
-        &lt;p&gt;推荐: 推荐&lt;/p&gt;
     &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
     </item>
   </channel>
