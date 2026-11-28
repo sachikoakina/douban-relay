@@ -6,8 +6,38 @@
     <description>豆瓣公开 RSS 的增量归档：仅收录启用之后的条目，去重后保留最近若干条。</description>
     <language>zh-CN</language>
     <ttl>20</ttl>
-    <lastBuildDate>Thu, 26 Nov 2026 21:27:58 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 21:32:04 +0800</lastBuildDate>
     <atom:link href="https://sachikoakina.github.io/douban-relay/rss-50.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>看过赛罗奥特曼宇宙跃升～集结吧！光之勇者们～</title>
+      <link>https://movie.douban.com/subject/38593097/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/5000299627</guid>
+      <pubDate>Sat, 28 Nov 2026 20:06:54 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">看过</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/38593097/" title="ウルトラマンゼロコスモライズ～集え！光の勇者たち～"&gt;
+    &lt;img alt="ウルトラマンゼロコスモライズ～集え！光の勇者たち～" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2934841355.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;推荐: 很差&lt;/p&gt;
+        &lt;p&gt;备注: 玩具宣传片&lt;/p&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>在看学生会也有洞！</title>
+      <link>https://movie.douban.com/subject/37193332/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/5000012646</guid>
+      <pubDate>Sat, 28 Nov 2026 14:20:48 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">在看</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/37193332/" title="生徒会にも穴はある!"&gt;
+    &lt;img alt="生徒会にも穴はある!" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2935222216.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
     <item>
       <title>看过约定的梦幻岛 第二季</title>
       <link>https://movie.douban.com/subject/33387151/</link>
@@ -733,34 +763,6 @@
       <description>&lt;table&gt;&lt;tr&gt;
     &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/37068446/" title="Resident Evil"&gt;
     &lt;img alt="Resident Evil" src="https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2936442661.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
-    &lt;td&gt;
-    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
-    </item>
-    <item>
-      <title>想看哥斯拉大战金刚3：超新星之战</title>
-      <link>https://movie.douban.com/subject/36889289/</link>
-      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4969485960</guid>
-      <pubDate>Mon, 19 Oct 2026 13:57:36 +0800</pubDate>
-      <category>movie</category>
-      <dc:creator>琴弦月初</dc:creator>
-      <category domain="douban:status">想看</category>
-      <description>&lt;table&gt;&lt;tr&gt;
-    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/36889289/" title="Godzilla x Kong: Supernova"&gt;
-    &lt;img alt="Godzilla x Kong: Supernova" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2921387013.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
-    &lt;td&gt;
-    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
-    </item>
-    <item>
-      <title>想看流浪地球3(下)</title>
-      <link>https://movie.douban.com/subject/37106774/</link>
-      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4969484941</guid>
-      <pubDate>Mon, 19 Oct 2026 13:56:00 +0800</pubDate>
-      <category>movie</category>
-      <dc:creator>琴弦月初</dc:creator>
-      <category domain="douban:status">想看</category>
-      <description>&lt;table&gt;&lt;tr&gt;
-    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/37106774/" title="流浪地球3(下)"&gt;
-    &lt;img alt="流浪地球3(下)" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2915091857.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
     &lt;td&gt;
     &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
     </item>

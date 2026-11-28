@@ -6,8 +6,38 @@
     <description>豆瓣公开 RSS 的增量归档：仅收录启用之后的条目，去重后保留最近若干条。</description>
     <language>zh-CN</language>
     <ttl>20</ttl>
-    <lastBuildDate>Thu, 26 Nov 2026 21:27:58 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 21:32:04 +0800</lastBuildDate>
     <atom:link href="https://sachikoakina.github.io/douban-relay/rss-15.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>看过赛罗奥特曼宇宙跃升～集结吧！光之勇者们～</title>
+      <link>https://movie.douban.com/subject/38593097/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/5000299627</guid>
+      <pubDate>Sat, 28 Nov 2026 20:06:54 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">看过</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/38593097/" title="ウルトラマンゼロコスモライズ～集え！光の勇者たち～"&gt;
+    &lt;img alt="ウルトラマンゼロコスモライズ～集え！光の勇者たち～" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2934841355.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;推荐: 很差&lt;/p&gt;
+        &lt;p&gt;备注: 玩具宣传片&lt;/p&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>在看学生会也有洞！</title>
+      <link>https://movie.douban.com/subject/37193332/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/5000012646</guid>
+      <pubDate>Sat, 28 Nov 2026 14:20:48 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">在看</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/37193332/" title="生徒会にも穴はある!"&gt;
+    &lt;img alt="生徒会にも穴はある!" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2935222216.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
     <item>
       <title>看过约定的梦幻岛 第二季</title>
       <link>https://movie.douban.com/subject/33387151/</link>
@@ -206,36 +236,6 @@
         &lt;p&gt;备注: 画风看着还行就看完了。故事大概是狸猫隐神开了间事务所，带着夏羽、织、晶、野火丸几个半妖小孩接委托，靠单元回慢慢推主线。夏羽是尸鬼混血，没痛觉、能再生，前期麻木得像块石头，被村里当怪物养大，这种三无性格还挺好玩；织傲娇带刺，晶那真是画女硬说男，野火丸狐狸嘴欠。
 前几集节奏温吞，织妈那条线一出来直接恶心：被叔叔当实验品逼着和各种东西杂交，生出一堆喊"织，我爱你"的畸形弟妹，冲击力拉满但也膈应人。更离谱的是晶的哥哥又来一遍同样的套路——作者是不是对"性压榨"这个母题情有独钟啊，重复用真的审美疲劳，纯恶心了。
 唯一让我觉得有意思的是狐狸绀和夏羽的关系。俩人完全不知道爱是什么，凑不出一个心眼子。但照现在的发展，狐狸绀迟早会背叛夏羽。整体还算可以，但作者那点恶趣味真的该收一收了。&lt;/p&gt;
-    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
-    </item>
-    <item>
-      <title>看过自然的力量</title>
-      <link>https://movie.douban.com/subject/26474262/</link>
-      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4993081318</guid>
-      <pubDate>Thu, 19 Nov 2026 21:06:53 +0800</pubDate>
-      <category>movie</category>
-      <dc:creator>琴弦月初</dc:creator>
-      <category domain="douban:status">看过</category>
-      <description>&lt;table&gt;&lt;tr&gt;
-    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/26474262/" title="Forces of Nature"&gt;
-    &lt;img alt="Forces of Nature" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2524956428.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
-    &lt;td&gt;
-        &lt;p&gt;推荐: 还行&lt;/p&gt;
-    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
-    </item>
-    <item>
-      <title>看过香肠</title>
-      <link>https://movie.douban.com/subject/26910847/</link>
-      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4993078399</guid>
-      <pubDate>Thu, 19 Nov 2026 21:02:32 +0800</pubDate>
-      <category>movie</category>
-      <dc:creator>琴弦月初</dc:creator>
-      <category domain="douban:status">看过</category>
-      <description>&lt;table&gt;&lt;tr&gt;
-    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/26910847/" title="Weenie"&gt;
-    &lt;img alt="Weenie" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2424729558.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
-    &lt;td&gt;
-        &lt;p&gt;推荐: 还行&lt;/p&gt;
     &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
     </item>
   </channel>

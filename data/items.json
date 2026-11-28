@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "key": "b5a3ed5d994f3f649804",
+   "guid": "https://www.douban.com/people/201878529/interests/5000299627",
+   "cat": "movie",
+   "status": "看过",
+   "title": "看过赛罗奥特曼宇宙跃升～集结吧！光之勇者们～",
+   "link": "https://movie.douban.com/subject/38593097/",
+   "published": "2026-11-28T12:06:54Z",
+   "updated": "2026-11-28T12:06:54Z",
+   "summary": "<table><tr>\n    <td width=\"80px\"><a href=\"https://movie.douban.com/subject/38593097/\" title=\"ウルトラマンゼロコスモライズ～集え！光の勇者たち～\">\n    <img alt=\"ウルトラマンゼロコスモライズ～集え！光の勇者たち～\" src=\"https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2934841355.jpg\" /></a></td>\n    <td>\n        <p>推荐: 很差</p>\n        <p>备注: 玩具宣传片</p>\n    </td></tr></table>",
+   "author": "琴弦月初"
+  },
+  {
+   "key": "5c69934453d717222254",
+   "guid": "https://www.douban.com/people/201878529/interests/5000012646",
+   "cat": "movie",
+   "status": "在看",
+   "title": "在看学生会也有洞！",
+   "link": "https://movie.douban.com/subject/37193332/",
+   "published": "2026-11-28T06:20:48Z",
+   "updated": "2026-11-28T06:20:48Z",
+   "summary": "<table><tr>\n    <td width=\"80px\"><a href=\"https://movie.douban.com/subject/37193332/\" title=\"生徒会にも穴はある!\">\n    <img alt=\"生徒会にも穴はある!\" src=\"https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2935222216.jpg\" /></a></td>\n    <td>\n    </td></tr></table>",
+   "author": "琴弦月初"
+  },
+  {
    "key": "3007b54c73363cb8fd88",
    "guid": "https://www.douban.com/people/201878529/interests/3754385815",
    "cat": "movie",

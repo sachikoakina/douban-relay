@@ -6,8 +6,38 @@
     <description>豆瓣公开 RSS 的增量归档：仅收录启用之后的条目，去重后保留最近若干条。</description>
     <language>zh-CN</language>
     <ttl>20</ttl>
-    <lastBuildDate>Thu, 26 Nov 2026 21:27:58 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 21:32:04 +0800</lastBuildDate>
     <atom:link href="https://sachikoakina.github.io/douban-relay/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>看过赛罗奥特曼宇宙跃升～集结吧！光之勇者们～</title>
+      <link>https://movie.douban.com/subject/38593097/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/5000299627</guid>
+      <pubDate>Sat, 28 Nov 2026 20:06:54 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">看过</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/38593097/" title="ウルトラマンゼロコスモライズ～集え！光の勇者たち～"&gt;
+    &lt;img alt="ウルトラマンゼロコスモライズ～集え！光の勇者たち～" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2934841355.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;推荐: 很差&lt;/p&gt;
+        &lt;p&gt;备注: 玩具宣传片&lt;/p&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>在看学生会也有洞！</title>
+      <link>https://movie.douban.com/subject/37193332/</link>
+      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/5000012646</guid>
+      <pubDate>Sat, 28 Nov 2026 14:20:48 +0800</pubDate>
+      <category>movie</category>
+      <dc:creator>琴弦月初</dc:creator>
+      <category domain="douban:status">在看</category>
+      <description>&lt;table&gt;&lt;tr&gt;
+    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/37193332/" title="生徒会にも穴はある!"&gt;
+    &lt;img alt="生徒会にも穴はある!" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2935222216.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+    </item>
     <item>
       <title>看过约定的梦幻岛 第二季</title>
       <link>https://movie.douban.com/subject/33387151/</link>
@@ -433,38 +463,6 @@
     &lt;img alt="八仙！" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2934074566.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
     &lt;td&gt;
         &lt;p&gt;推荐: 力荐&lt;/p&gt;
-    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
-    </item>
-    <item>
-      <title>看过功夫女足</title>
-      <link>https://movie.douban.com/subject/36452545/</link>
-      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4982429873</guid>
-      <pubDate>Thu, 05 Nov 2026 18:22:34 +0800</pubDate>
-      <category>movie</category>
-      <dc:creator>琴弦月初</dc:creator>
-      <category domain="douban:status">看过</category>
-      <description>&lt;table&gt;&lt;tr&gt;
-    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/36452545/" title="功夫女足"&gt;
-    &lt;img alt="功夫女足" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2933860063.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
-    &lt;td&gt;
-        &lt;p&gt;推荐: 还行&lt;/p&gt;
-        &lt;p&gt;备注: 前45分钟看得人想砸遥控器。叙事稀碎，感官混乱，完全不知道在讲什么。全靠星爷那套无厘头老笑料吊着，撑过开头那段煎熬，才算是进入剧情。除此之外，剧情松散得一塌糊涂，发展太快了，人物行为全靠强行推动，逻辑基本为零。
-整部片唯一让人坐直了身子的是结尾彩蛋——原《功夫足球》的人冒出来说"再打一场吧"。那一瞬间确实有点东西，勾起当年看少林足球的回忆，算是给这片子留了条后路。
-但除此之外，真没什么可取之处。想蹭IP红利又没那个本事，功夫和女足的融合生硬得像硬凑的命题作文。笑点还行，剧情烂，除了最后那点情怀彩蛋，剩下的时间都是在看星爷的面子了。&lt;/p&gt;
-    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
-    </item>
-    <item>
-      <title>想看关于约会的一切</title>
-      <link>https://movie.douban.com/subject/37067150/</link>
-      <guid isPermaLink="false">https://www.douban.com/people/201878529/interests/4981743865</guid>
-      <pubDate>Wed, 04 Nov 2026 18:23:43 +0800</pubDate>
-      <category>movie</category>
-      <dc:creator>琴弦月初</dc:creator>
-      <category domain="douban:status">想看</category>
-      <description>&lt;table&gt;&lt;tr&gt;
-    &lt;td width="80px"&gt;&lt;a href="https://movie.douban.com/subject/37067150/" title="Follemente"&gt;
-    &lt;img alt="Follemente" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2924636647.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
-    &lt;td&gt;
     &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
     </item>
   </channel>
